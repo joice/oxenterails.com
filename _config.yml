@@ -1,0 +1,5 @@
+auto:        true
+haml:        true
+sass:        true
+permalink:   none
+multiviews:  true

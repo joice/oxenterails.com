@@ -1,0 +1,25 @@
+!!! Strict
+%html{ :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %title Oxente Rails 2010
+    %meta{ :content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type" }
+    %meta{ :name => "author", :content => "Participe.de - Tink!" }
+    %meta{ :name => "description", :content => "Oxente Rails 2010" }
+    %meta{ :name => "keywords", :content => "Oxente Rails 2010" }
+    - %w(reset text 960 style sifr).each do |css_file|
+      = css_tag("#{css_file}.css")
+    - %w(sifr sifr-config).each do |js|
+      = script_tag("#{js}.js")
+  %body
+    #header
+      
+    #content
+
+    #footer
+    
+    %script{ :type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" }
+    - %w(jquery.validate localization/messages_ptbr).each do |js_file|
+      = script_tag("#{js_file}.js")
+    - if variable(:javascript)
+      %script{:type => 'text/javascript'}
+        = variable(:javascript)
