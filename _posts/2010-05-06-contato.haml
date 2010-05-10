@@ -3,3 +3,18 @@ layout: default
 title: Contato
 ---
 
+%p Entre em contato conosco preenchendo corretamente todos os campos abaixo.
+  
+%form#contato{ :action => '', :method => 'post' }
+  %fieldset
+    %label Nome:
+    %input.text.required{ :name => 'nome' }
+    %label E-mail:
+    %input.text.email.required{ :name => 'email' }
+    %label Telefone:
+    %input.text.required{ :name => 'telefone' }
+    %label Mensagem:
+    %textarea.text.required{ :name => 'mensagem' }
+    %br
+    %br
+    %input#enviar{ :name => 'submit', :value => 'enviar', :type => 'submit' }
