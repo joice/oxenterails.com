@@ -1,9 +1,11 @@
 body { line-height:1; font-size:62.5%; font-family: Arial, Helvetica, Verdana, sans-serif; background-color: #fff7bc; color: #6b0000; }
 
 h2{font-size:26.77px}
-p { font-size: 14px; margin-bottom: 20px; }
+h3{ color: #A31F00; }
+p { font-size: 14px; margin-bottom: 20px; letter-spacing: 1px; line-height: 18px; }
 a { color: #6b0000; }
 a:hover { color: #f8810d; }
+hr { border-color: #FBBD00; }
 
 ol{list-style:decimal}
 ul{list-style:disc}
@@ -18,7 +20,7 @@ ul{list-style:disc}
 #menu li { float: left; padding-left: 14.5px; margin-right: 5px; }
 #menu li a { text-decoration: none; text-transform: uppercase; color: #6b0000; display: block;}
 #menu .current a { color: #6b0000; }
-#menu a:hover { text-decoration: underline; }
+#menu a:hover, #local a:hover { text-decoration: underline; }
 
 #conteudo { background: url(../images/bg/bg-body.png) repeat-x top; min-height: 480px; }
 
@@ -27,17 +29,30 @@ ul{list-style:disc}
 #content ul { list-style-type: none; }
 #content ol { margin-left: 20px; }
 #content ul li, #content ol li { font-size: 14px; }
-#content ul li a, #content ol li a { font-weight: bold; }
+#content ul li a, #content ol li a { font-weight: bold; color: #A31F00; }
+#content ul li .no-bold, #content ol li .no-bold { font-weight: normal; }
+#content .ul_none { margin-left: 20px; }
 #content .ul_disc { list-style-type: disc; padding-left: 20px;  }
 #content .ul_disc li { margin-bottom: 5px; }
 #content .ul_disc a.mail { text-decoration: none; }
 
 #local { text-align: center; }
-#local img{ border: 1px solid; margin-bottom: 15px; margin-left:68px;}
+#local img{ border: 1px solid #FBBD00; margin-bottom: 15px; margin-left:68px;}
 #praiamar img {padding: 5px; padding-right: 0px; }
 
 #footer { display: block; height: 146px; margin-top: 60px; background: url(../images/bg/bg-footer.jpg) repeat-x bottom; }
 
+/* Guests */
+#guests ul { list-style: none outside none;}
+#guests ul li { height: auto !important; min-height: 110px; padding-bottom: 1em; }
+#guests li { font-size: 1.2em; line-height: 18px; }
+#guests li:hover { background: #FFFFFF; border: 1px solid #FBBD00; }
+#guests ul li img { background: none repeat scroll 0 0 #FFFFFF; float: left; padding: 6px; }
+#guests h3 { font-size: 2em; margin: 10px 0px; position: relative; top: 2px; }
+#guests h3, #guests p { margin-left: 120px; } 
+#guests h3 a { text-decoration: none; }
+#guests a { color: #A31F00; }
+#guests p { font-size: 1.1em; margin-bottom: 0; margin-right: 22px; padding-top:10px; letter-spacing: 0;}
 
 /* Contato */
 #contato fieldset { border: none; }

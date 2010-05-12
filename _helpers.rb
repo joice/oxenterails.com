@@ -14,7 +14,7 @@ module Helpers
   def layout_type
     variable('layout_type') || 'internal_page'
   end
-
+  
   def css_tag(href, options = {})
     options[:rel] ||= 'stylesheet'
     options[:type] ||= 'text/css'
