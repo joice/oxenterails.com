@@ -5,3 +5,10 @@ layout_type: start_page
 
 ---
 
+.grid_8
+  .slider
+    .inside
+      %img.imgBox{ :src => "images/bg/bg-slideshow.png"}
+      .slideshow
+        - 4.times do |image|
+          %img{ :src => "images/slides/#{image}.jpg"}

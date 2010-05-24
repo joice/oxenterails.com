@@ -46,3 +46,6 @@
     - if variable(:javascript)
       %script{:type => 'text/javascript'}
         = variable(:javascript)
+    - unless layout_type == 'internal_page'
+      - %w(jquery.cycle.lite theme).each do |js_file|
+        = script_tag("#{js_file}.js")
