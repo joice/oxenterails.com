@@ -1,21 +1,22 @@
 ---
-layout: default
-title: Contato
-layout_type: internal_page 
+layout: default-en
+title: Contact
+layout_type: internal_page
+category: en 
 ---
 
-%p Entre em contato conosco preenchendo corretamente todos os campos abaixo.
+%p Contact us by filling correctly all of the fields below.
   
 %form#contato{ :action => '', :method => 'post' }
   %fieldset
-    %label Nome:
+    %label Name:
     %input.text.required{ :name => 'nome' }
-    %label E-mail:
+    %label Email:
     %input.text.email.required{ :name => 'email' }
-    %label Telefone:
+    %label Cel Phone Number:
     %input.text.required{ :name => 'telefone' }
-    %label Mensagem:
+    %label Message:
     %textarea.text.required{ :name => 'mensagem' }
     %br
     %br
-    %input#enviar{ :name => 'submit', :value => 'enviar', :type => 'submit' }
+    %input#enviar{ :name => 'submit', :value => 'Submit', :type => 'submit' }

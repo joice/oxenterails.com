@@ -1,77 +1,73 @@
 ---
-layout: default
-title: Início
+layout: default-en
+title: Home
 layout_type: start_page 
-
+category: en
 ---
 .grid_1.prefix_9
   %a(href="http://www.twitter.com/oxenterails" target="_blank")
-    %img.twitter{ :src => "images/bg/logo-twitter.jpg", :title => "Siga-nos no Twitter!"}
+    %img.twitter{ :src => "../images/bg/logo-twitter.jpg", :title => "Follow us on Twitter!"}
 .grid_8.prefix_1
   .slider
     .inside
       .slideshow
         - 4.times do |image|
-          %img{ :src => "images/slides/#{image}.jpg"}
+          %img{ :src => "../images/slides/#{image}.jpg"}
 .clear
 #calls
   .grid_12
     #agenda.grid_3.prefix_1.alpha
-      %img{ :src => "images/conteudo/bg-div-agenda.png", :title => "Confira a nossa programação", :height => "46px"}
-      %img.call{ :src => "images/agenda.jpg", :title => "Confira a nossa programação", :height => "125px"}
+      %img{ :src => "../images/conteudo/en/bg-div-program.png", :title => "Check out our schedule", :height => "46px"}
+      %img.call{ :src => "../images/agenda.jpg", :title => "Check out our schedule", :height => "125px"}
       
       %p 
-        %a(href="/agenda")
-          %strong Fique por dentro
+        %a(href="/en/program")
+          %strong Stay on top
           %br
-          do que vai rolar
+          of all that will happen.
           
     #sep.grid_1
-      %img.separator.ag{ :src => "images/conteudo/bg-div-separator.png", :height => "200px"}
+      %img.separator.ag{ :src => "../images/conteudo/bg-div-separator.png", :height => "200px"}
       
-    #palestrantes.grid_3
-      %img{ :src => "images/conteudo/bg-div-palestrantes.png", :title => "Confira os palestrantes", :height => "46px"}
-      %img.call{ :src => "images/palestrantes.jpg", :title => "Confira os palestrantes", :height => "118px"}
+    #speakers.grid_3
+      %img{ :src => "../images/conteudo/en/bg-div-speakers.png", :title => "Check out the speakers", :height => "46px"}
+      %img.call{ :src => "../images/palestrantes.jpg", :title => "Check out the speakers", :height => "118px"}
       %p 
-        %a(href="/palestrantes")
-          %strong Palestrantes com Rails
+        %a(href="/en/speaker")
+          %strong Speakers with Rails
           %br
-          na veia!
+          running in their veins!
           
     #sep.grid_1
-      %img.separator.ag{ :src => "images/conteudo/bg-div-separator.png", :height => "200px"}
+      %img.separator.ag{ :src => "../images/conteudo/bg-div-separator.png", :height => "200px"}
       
-    #inscricoes.grid_3.omega
-      %img{ :src => "images/conteudo/bg-div-inscricoes.png", :title => "Inscreva-se! :)", :height => "46px"}
-      %img.call{ :src => "images/inscricoes.jpg", :title => "Inscreva-se! :)", :height => "118px"}
+    #register.grid_3.omega
+      %img{ :src => "../images/conteudo/en/bg-div-register.png", :title => "Register now! :)", :height => "46px"}
+      %img.call{ :src => "../images/inscricoes.jpg", :title => "Register now! :)", :height => "118px"}
       %p 
-        %a(href="/inscreva-se")
-          %strong Inscreva-se antes
+        %a(href="/en/register")
+          %strong Register before
           %br
-          e aproveite as promoções!
+          and enjoy the deals!
   .grid_12
     #clocal.grid_3.prefix_1.alpha
-      %img{ :src => "images/conteudo/bg-div-local.png", :title => "Conheça o local", :height => "46px"}
-      %img.call{ :src => "images/fachada-praimar.jpg", :title => "Conheça o local", :height => "117px"}
+      %img{ :src => "../images/conteudo/en/bg-div-venue.png", :title => "About the venue", :height => "46px"}
+      %img.call{ :src => "../images/fachada-praimar.jpg", :title => "About the venue", :height => "117px"}
       
       %p 
-        %a(href="/local")
-          %strong Conheça
-          um pouco
+        %a(href="/en/venue")
+          %strong Meet
+          a little about
           %br
-          sobre o local
-          %br
-          onde será realizado
+          where it will be held.
           
     #sep.grid_1
-      %img.separator.ag{ :src => "images/conteudo/bg-div-separator.png", :height => "200px"}
+      %img.separator.ag{ :src => "../images/conteudo/bg-div-separator.png", :height => "200px"}
     
     #contact.grid_3.prefix_1.alpha
-      %img{ :src => "images/conteudo/bg-div-contato.png", :title => "Entre em contato conosco", :height => "46px"}
-      %img.call{ :src => "images/contato.jpg", :title => "Entre em contato conosco", :height => "117px"}
+      %img{ :src => "../images/conteudo/en/bg-div-contact.png", :title => "Contact us", :height => "46px"}
+      %img.call{ :src => "../images/contato.jpg", :title => "Contact us", :height => "117px"}
       
       %p 
-        %a(href="/contato")
-          %strong Entre em contato
-          %br
-          conosco
+        %a(href="/en/contact")
+          %strong Contact us
