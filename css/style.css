@@ -14,6 +14,8 @@ ul{list-style:disc}
 
 #banner{ padding-left: 143px; }
 
+#translate{ position: absolute; right: 0px; top: 307px; }
+
 #menu { background: url(../images/bg/bg-menu.jpg) repeat-x top; height: 40px; }
 #menu ul { padding-top: 14px; }
 #menu ul li { display: inline; font-size: 13px; padding-right: 2.5px;}
@@ -42,16 +44,17 @@ img.twitter { margin-left: 10px; }
 hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 
 /* Divs de chamadas na página principal */
-#content #calls p { font-size: 18px; color: #000; margin-left: 19px; }
+#content #calls p { font-size: 16px; color: #000; margin-left: 19px; }
 #content #calls p a {text-decoration: none; color: #000; }
 #content #calls p a:hover {text-decoration: underline; color: #6b0000; }
 #content #calls img.call { margin-top: -11px; margin-left: 10px; margin-bottom: 5px; border: 2px solid #333; -moz-border-radius: 4px; }
 #content img.separator { margin-top: 30px; border: 0 none; }
 #content img.separator.ag { margin-left: -20px; }
-#content #palestrantes, #content #inscricoes { margin-left: -60px;}
+#content #palestrantes, #content #cinscricoes, #content #speakers, #content #register { margin-left: -60px;}
 #content #contact { margin-left: -140px; }
 #content #palestrantes p { letter-spacing: 0; margin-left: 3px;}
-#content #inscricoes p { letter-spacing: 0; margin-left: 5px;}
+#content #speakers p { margin-left: 16px;}
+#content #cinscricoes p { letter-spacing: 0; margin-left: 5px;}
 
 /* Slideshow */
 
