@@ -4,11 +4,74 @@ title: Início
 layout_type: start_page 
 
 ---
-
-.grid_8
+.grid_1.prefix_9
+  %a(href="http://www.twitter.com/oxenterails" target="_blank")
+    %img.twitter{ :src => "images/bg/logo-twitter.jpg", :title => "Siga-nos no Twitter!"}
+.grid_8.prefix_1
   .slider
     .inside
-      %img.imgBox{ :src => "images/bg/bg-slideshow.png"}
       .slideshow
         - 4.times do |image|
           %img{ :src => "images/slides/#{image}.jpg"}
+.clear
+#calls
+  .grid_12
+    #agenda.grid_3.prefix_1.alpha
+      %img{ :src => "images/conteudo/bg-div-agenda.png", :title => "Confira a nossa programação", :height => "46px"}
+      %img.call{ :src => "images/agenda.jpg", :title => "Confira a nossa programação", :height => "125px"}
+      
+      %p 
+        %a(href="/agenda")
+          %strong Fique por dentro
+          %br
+          do que vai rolar
+          
+    #sep.grid_1
+      %img.separator.ag{ :src => "images/conteudo/bg-div-separator.png", :height => "200px"}
+      
+    #palestrantes.grid_3
+      %img{ :src => "images/conteudo/bg-div-palestrantes.png", :title => "Confira os palestrantes", :height => "46px"}
+      %img.call{ :src => "images/palestrantes.jpg", :title => "Confira os palestrantes", :height => "118px"}
+      %p 
+        %a(href="/palestrantes")
+          %strong Palestrantes com Rails
+          %br
+          na veia!
+          
+    #sep.grid_1
+      %img.separator.ag{ :src => "images/conteudo/bg-div-separator.png", :height => "200px"}
+      
+    #inscricoes.grid_3.omega
+      %img{ :src => "images/conteudo/bg-div-inscricoes.png", :title => "Inscreva-se! :)", :height => "46px"}
+      %img.call{ :src => "images/inscricoes.jpg", :title => "Inscreva-se! :)", :height => "118px"}
+      %p 
+        %a(href="/inscreva-se")
+          %strong Inscreva-se antes
+          %br
+          e aproveite as promoções!
+  .grid_12
+    #clocal.grid_3.prefix_1.alpha
+      %img{ :src => "images/conteudo/bg-div-local.png", :title => "Conheça o local", :height => "46px"}
+      %img.call{ :src => "images/fachada-praimar.jpg", :title => "Conheça o local", :height => "117px"}
+      
+      %p 
+        %a(href="/local")
+          %strong Conheça
+          um pouco
+          %br
+          sobre o local
+          %br
+          onde será realizado
+          
+    #sep.grid_1
+      %img.separator.ag{ :src => "images/conteudo/bg-div-separator.png", :height => "200px"}
+    
+    #contact.grid_3.prefix_1.alpha
+      %img{ :src => "images/conteudo/bg-div-contato.png", :title => "Entre em contato conosco", :height => "46px"}
+      %img.call{ :src => "images/contato.jpg", :title => "Entre em contato conosco", :height => "117px"}
+      
+      %p 
+        %a(href="/contato")
+          %strong Entre em contato
+          %br
+          conosco

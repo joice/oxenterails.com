@@ -18,9 +18,11 @@ ul{list-style:disc}
 #menu ul { padding-top: 14px; }
 #menu ul li { display: inline; font-size: 13px; padding-right: 2.5px;}
 #menu li { float: left; padding-left: 14.5px; margin-right: 5px; }
-#menu li a { text-decoration: none; text-transform: uppercase; color: #6b0000; display: block;}
-#menu .current a { color: #6b0000; }
-#menu a:hover, #local a:hover { text-decoration: underline; }
+#menu li a { text-decoration: none; text-transform: uppercase; color: #6b0000; font-weight: bold; display: block;}
+#menu .current a { color: #FFFFFF; background: #6b0000; margin-top: -8px; padding: 10px 17px 9px; }
+#menu a:hover, #local a:hover  { color: #FFFFFF;}
+
+img.twitter { margin-left: 10px; }
 
 #conteudo { background: url(../images/bg/bg-body.png) repeat-x top; min-height: 480px; }
 
@@ -36,19 +38,37 @@ ul{list-style:disc}
 #content .ul_disc li { margin-bottom: 5px; }
 #content .ul_disc a.mail { text-decoration: none; }
 
+
+hr.content {border: 2px solid #6b0000; margin-top: -2px; }
+
+/* Divs de chamadas na página principal */
+#content #calls p { font-size: 18px; color: #000; margin-left: 19px; }
+#content #calls p a {text-decoration: none; color: #000; }
+#content #calls p a:hover {text-decoration: underline; color: #6b0000; }
+#content #calls img.call { margin-top: -11px; margin-left: 10px; margin-bottom: 5px; border: 2px solid #333; -moz-border-radius: 4px; }
+#content img.separator { margin-top: 30px; border: 0 none; }
+#content img.separator.ag { margin-left: -20px; }
+#content #palestrantes, #content #inscricoes { margin-left: -60px;}
+#content #contact { margin-left: -140px; }
+#content #palestrantes p { letter-spacing: 0; margin-left: 3px;}
+#content #inscricoes p { letter-spacing: 0; margin-left: 5px;}
+
 /* Slideshow */
 
-#content .slider { border: none; height: 214px; margin-top: 50px; }
+#content .slider { border: none; height: 214px; margin-top: 10px; margin-bottom: 20px; margin-left: 30px; }
 #content .container_slider { height: auto; }
 #content .slider .inside { height:214px; }
-#content .imgBox { height: 214px; position: absolute; z-index: 9999; border: 0 none; }
+#content .slideshow img { border: 2px solid #333333; -moz-border-radius: 4px; }
 
 
 #local { text-align: center; }
 #local img{ border: 1px solid #FBBD00; margin-bottom: 15px; margin-left:68px;}
 #praiamar img {padding: 5px; padding-right: 0px; }
 
-#footer { display: block; height: 146px; margin-top: 60px; background: url(../images/bg/bg-footer.jpg) repeat-x bottom; }
+#footer { display: block; height: 146px; margin-top: 60px; background: url(../images/bg/bg-footer3.jpg) repeat-x bottom; }
+#footer a { text-decoration: none; }
+#footer a:hover { color: #6b0000; text-decoration: underline; }
+#footer #credenciais { margin-top: 30px;}
 
 /* Tabela */
 
