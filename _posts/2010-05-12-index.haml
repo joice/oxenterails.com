@@ -2,7 +2,6 @@
 layout: default
 title: Início
 layout_type: start_page 
-
 ---
 .grid_1.prefix_9
   %a(href="http://www.twitter.com/oxenterails" target="_blank")
@@ -17,11 +16,11 @@ layout_type: start_page
 #calls
   .grid_12
     #agenda.grid_3.prefix_1.alpha
-      %img{ :src => "images/conteudo/bg-div-agenda.png", :title => "Confira a nossa programação", :height => "46px"}
-      %img.call{ :src => "images/agenda23.jpg", :title => "Confira a nossa programação", :height => "125px"}
+      %a(href="/agenda")
+        %img{ :src => "images/conteudo/bg-div-agenda.png", :title => "Confira a nossa programação", :height => "46px"}
+        %img.call{ :src => "images/agenda23.jpg", :title => "Confira a nossa programação", :height => "125px"}
       
-      %p 
-        %a(href="/agenda")
+        %p 
           %strong Fique por dentro
           %br
           do que vai rolar
@@ -30,10 +29,10 @@ layout_type: start_page
       %img.separator.ag{ :src => "images/conteudo/bg-div-separator.png", :height => "200px"}
       
     #palestrantes.grid_3
-      %img{ :src => "images/conteudo/bg-div-palestrantes.png", :title => "Confira os palestrantes", :height => "46px"}
-      %img.call{ :src => "images/palestrantes.jpg", :title => "Confira os palestrantes", :height => "118px"}
-      %p 
-        %a(href="/palestrantes")
+      %a(href="/palestrantes")
+        %img{ :src => "images/conteudo/bg-div-palestrantes.png", :title => "Confira os palestrantes", :height => "46px"}
+        %img.call{ :src => "images/palestrantes.jpg", :title => "Confira os palestrantes", :height => "118px"}
+        %p 
           %strong Palestrantes com Rails
           %br
           na veia!
@@ -42,20 +41,20 @@ layout_type: start_page
       %img.separator.ag{ :src => "images/conteudo/bg-div-separator.png", :height => "200px"}
       
     #cinscricoes.grid_3.omega
-      %img{ :src => "images/conteudo/bg-div-inscricoes.png", :title => "Inscreva-se! :)", :height => "46px"}
-      %img.call{ :src => "images/inscricoes.jpg", :title => "Inscreva-se! :)", :height => "118px"}
-      %p 
-        %a(href="/inscreva-se")
+      %a(href="/inscreva-se")
+        %img{ :src => "images/conteudo/bg-div-inscricoes.png", :title => "Inscreva-se! :)", :height => "46px"}
+        %img.call{ :src => "images/inscricoes.jpg", :title => "Inscreva-se! :)", :height => "118px"}
+        %p 
           %strong Inscreva-se antes
           %br
           e aproveite as promoções!
   .grid_12
     #clocal.grid_3.prefix_1.alpha
-      %img{ :src => "images/conteudo/bg-div-local.png", :title => "Conheça o local", :height => "46px"}
-      %img.call{ :src => "images/fachada-praimar.jpg", :title => "Conheça o local", :height => "117px"}
+      %a(href="/local")
+        %img{ :src => "images/conteudo/bg-div-local.png", :title => "Conheça o local", :height => "46px"}
+        %img.call{ :src => "images/fachada-praimar.jpg", :title => "Conheça o local", :height => "117px"}
       
-      %p 
-        %a(href="/local")
+        %p 
           %strong Conheça
           um pouco
           %br
@@ -67,11 +66,11 @@ layout_type: start_page
       %img.separator.ag{ :src => "images/conteudo/bg-div-separator.png", :height => "200px"}
     
     #contact.grid_3.prefix_1.alpha
-      %img{ :src => "images/conteudo/bg-div-contato.png", :title => "Entre em contato conosco", :height => "46px"}
-      %img.call{ :src => "images/contato.jpg", :title => "Entre em contato conosco", :height => "117px"}
+      %a(href="/contato")
+        %img{ :src => "images/conteudo/bg-div-contato.png", :title => "Entre em contato conosco", :height => "46px"}
+        %img.call{ :src => "images/contato.jpg", :title => "Entre em contato conosco", :height => "117px"}
       
-      %p 
-        %a(href="/contato")
+        %p 
           %strong Entre em contato
           %br
           conosco

@@ -45,8 +45,8 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 
 /* Divs de chamadas na página principal */
 #content #calls p { font-size: 16px; color: #000; margin-left: 19px; }
-#content #calls p a {text-decoration: none; color: #000; }
-#content #calls p a:hover {text-decoration: underline; color: #6b0000; }
+#content #calls a {text-decoration: none; color: #000; }
+#content #calls a:hover p {text-decoration: underline; color: #6b0000; }
 #content #calls img.call { margin-top: -11px; margin-left: 10px; margin-bottom: 5px; border: 2px solid #333; -moz-border-radius: 4px; }
 #content img.separator { margin-top: 30px; border: 0 none; }
 #content img.separator.ag { margin-left: -20px; }
