@@ -38,7 +38,8 @@ img.twitter { margin-left: 10px; }
 #content .ul_none { margin-left: 20px; }
 #content .ul_disc { list-style-type: disc; padding-left: 20px;  }
 #content .ul_disc li { margin-bottom: 5px; }
-#content .ul_disc a.mail { text-decoration: none; }
+#content .ul_disc a.mail, #content #guests a { text-decoration: none; }
+#content #guests a:hover { text-decoration: underline; color: #f8810d; }
 
 
 hr.content {border: 2px solid #6b0000; margin-top: -2px; }
