@@ -2,6 +2,7 @@
 layout: default
 title: Local
 layout_type: internal_page 
+javascript_imports: jquery.fancybox-1.3.1.pack single_img
 ---
 
 %a(href = "http://www.praiamarnatal.com.br/index2.php" title="Clique aqui e entre no site do Praiamar" target="_blank")
@@ -25,13 +26,28 @@ layout_type: internal_page
   %li 12km do Centro da Cidade
   %li 500m do Centro de Convenções de Natal
   %li Acesso exclusivo à praia
-
+%p
+  %strong
+    %u Planta-baixa do local:
+%p
+  %a{ :id => "single_img", :href => "images/plantabaixa-praiamar.jpg"}
+    %img{ :title => "Planta Baixa do Praiamar Hotel & Convention", :src => "images/plantabaixa-praiamar.jpg", :alt => "Planta Baixa do Praiamar Hotel & Convention", :align => "center", :width => "500"}
 %p
   %strong
     %u Fotos do local:
     
-#praiamar
-  %img{ :title => "Auditório Praiamar", :src=> "images/auditoria-praiamar.jpg", :alt => "Auditório Praiamar", :align => "left", :width => "200"}
-  %img{ :title => "Espaço para exposições Praiamar", :src=> "images/expositores-praiamar.png", :alt => "Espaço para exposições Praiamar", :align => "left", :width => "200" }
-  %img#last{ :title => "Espaço para coffe-break Praiamar", :src=> "images/salaodefesta-praiamar.png", :alt => "Espaço para coffe-break Praiamar", :align => "left", :width => "200" }
+#fotos-local
+  %a{ :class => "group", :rel => "fotos-local", :href => "images/local/foto1.jpg"}
+    %img{ :title => "Auditório Praiamar", :src=> "images/local/foto1.jpg", :alt => "Auditório Praiamar", :align => "left", :height => "107"}
+  %a{ :class => "group", :rel => "fotos-local", :href => "images/local/foto6.png"}  
+    %img{ :title => "Espaço para exposições Praiamar", :src=> "images/local/foto6.png", :alt => "Espaço para exposições Praiamar", :align => "left", :height => "107" }
+  %a{ :class => "group", :rel => "fotos-local", :href => "images/local/foto4.jpg"}
+    %img{ :title => "Espaço para coffe-break Praiamar", :src=> "images/local/foto4.jpg", :alt => "Espaço para coffe-break Praiamar", :align => "left", :height => "107" }
+  %br
+  %a{ :class => "group", :rel => "fotos-local", :href => "images/local/foto7.png"}
+    %img{ :title => "Auditório Praiamar - Vista Frontal", :src => "images/local/foto7.png", :alt => "Auditório Praiamar - Vista Frontal", :align => "left", :height => "107"}
+  %a{ :class => "group", :rel => "fotos-local", :href => "images/local/foto8.jpg"}
+    %img{:title => "Espaço para Expositores", :src => "images/local/foto8.jpg", :alt => "Espaço para Expositores", :align => "left", :height => "107"}
+  %a{ :class => "group", :rel => "fotos-local", :href => "images/local/foto12.jpg"}
+    %img{ :title => "Salão para coffe-break Praiamar", :src=> "images/local/foto12.jpg", :alt => "Salão para coffe-break Praiamar", :align => "left", :height => "107" }
 .clear
