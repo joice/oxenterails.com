@@ -67,7 +67,10 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 
 #local { text-align: center; }
 #local img{ border: 1px solid #FBBD00; margin-bottom: 15px; margin-left:68px;}
-#praiamar img {padding: 5px; padding-right: 0px; }
+
+/* Css Images do local*/
+#fotos-local img { background: white; border: 1px solid #BBBBBB; margin: 7px 14px 7px 0; padding: 5px; width: 180px; }
+
 
 #footer { display: block; height: 146px; margin-top: 60px; background: url(../images/bg/bg-footer3.jpg) repeat-x bottom; }
 #footer a { text-decoration: none; }
