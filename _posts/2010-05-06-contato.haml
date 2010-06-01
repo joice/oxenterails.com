@@ -8,14 +8,14 @@ layout_type: internal_page
   
 %form#contato{ :action => 'http://participe.de/events/oxente-rails-2010/contacts', :method => 'post' }
   %fieldset
-    %label Nome:
-    %input.text.required{ :name => 'nome' }
-    %label E-mail:
-    %input.text.email.required{ :name => 'email' }
-    %label Telefone:
-    %input.text.required{ :name => 'telefone' }
-    %label Mensagem:
-    %textarea.text.required{ :name => 'mensagem' }
+    %label{:for => 'nome'} Nome:
+    %input.text.required{ :id => 'nome', :name => 'nome' }
+    %label{:for => 'email'} E-mail:
+    %input.text.email.required{ :id => 'email', :name => 'email' }
+    %label{:for => 'telefone'} Telefone:
+    %input.text.required{ :id => 'telefone', :name => 'telefone' }
+    %label{:for => 'mensagem'} Mensagem:
+    %textarea.text.required{ :id => 'mensagem', :name => 'mensagem' }
     %br
     %br
     %input#enviar{ :name => 'submit', :value => 'enviar', :type => 'submit' }
