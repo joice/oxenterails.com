@@ -1,0 +1,15 @@
+echo 'rvm ree@oxente' > .rvmrc
+rvm gemset create oxente
+cd .
+
+gem install bundler
+bundle install
+
+juicer install yui_compressor
+juicer install jslint
+
+
+
+To deploy it:
+
+rake deploy
