@@ -37,6 +37,7 @@ img.twitter { margin-left: 10px; }
 #content ul li .no-bold, #content ol li .no-bold { font-weight: normal; }
 #content .ul_none { margin-left: 20px; }
 #content .ul_disc { list-style-type: disc; padding-left: 20px;  }
+#content .ul_disc.top { margin-top: 20px; }
 #content .ul_disc li { margin-bottom: 5px; }
 #content .ul_disc a.mail, #content #guests a { text-decoration: none; }
 #content #guests a:hover { text-decoration: underline; color: #f8810d; }
