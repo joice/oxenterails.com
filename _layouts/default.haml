@@ -33,10 +33,18 @@
       .container_12
         .grid_9.prefix_2
           %ul
-            - site.posts.each do |post|
+            - topic_posts.each do |post|
               - if post.categories.empty?
                 %li{:class => "#{'current' if (page.title == post.title)}"}
                   %a{ :href => post.url}= post.title
+    - unless children_posts.empty?
+      #submenu
+        .container_12
+          .grid_9.prefix_2
+            %ul
+              - children_posts do |children_post|
+                %li
+                  %a{ :href => children_post.url }= children_post.title
 
     #conteudo
       %hr.content
