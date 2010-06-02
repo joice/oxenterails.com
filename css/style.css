@@ -17,12 +17,16 @@ ul{list-style:disc}
 #translate{ position: absolute; right: 0px; top: 307px; }
 
 #menu { background: url(../images/bg/bg-menu.jpg) repeat-x top; height: 40px; }
-#menu ul { padding-top: 14px; }
-#menu ul li { display: inline; font-size: 13px; padding-right: 2.5px;}
-#menu li { float: left; padding-left: 14.5px; margin-right: 5px; }
+#menu ul{ padding-top: 14px; }
+#submenu ul {padding-top: 8px;}
+#menu ul li, #submenu ul li  { display: inline; font-size: 13px; padding-right: 2.5px;}
+#menu li, #submenu li { float: left; padding-left: 14.5px; margin-right: 5px; }
 #menu li a { text-decoration: none; text-transform: uppercase; color: #6b0000; font-weight: bold; display: block;}
 #menu .current a { color: #FFFFFF; background: #6b0000; margin-top: -8px; padding: 10px 17px 9px; }
 #menu a:hover, #local a:hover  { color: #FFFFFF;}
+
+#submenu{ background-color: #6b0000; height: 28px; }
+#submenu li a { font-size: 14px; font-weight: bold; text-decoration: none; color: #FFFFFF; }
 
 img.twitter { margin-left: 10px; }
 
@@ -67,7 +71,9 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 
 
 #local { text-align: center; }
-#local img{ border: 1px solid #FBBD00; margin-bottom: 15px; margin-left:68px;}
+#local img, #conheca-natal img { border: 1px solid #FBBD00; margin-bottom: 15px;}
+#local img{ margin-left:68px;}
+#conheca-natal img { margin-left:8px;}
 
 /* Css Images do local*/
 #fotos-local img { background: white; border: 1px solid #BBBBBB; margin: 7px 14px 12px 0; padding: 5px; height: 107px; width: 175px; }
