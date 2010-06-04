@@ -26,7 +26,8 @@ ul{list-style:disc}
 #menu a:hover, #local a:hover  { color: #FFFFFF;}
 
 #submenu{ background-color: #6b0000; height: 28px; }
-#submenu li a { font-size: 14px; font-weight: bold; text-decoration: none; color: #FFFFFF; }
+#submenu li a { font-size: 14px; font-weight: bold; text-decoration: none; color: #FFFFFF; text-transform: uppercase;}
+#submenu li a:hover { text-decoration: underline; }
 
 img.twitter { margin-left: 10px; }
 
@@ -73,7 +74,7 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 #local { text-align: center; }
 #local img, #conheca-natal img { border: 1px solid #FBBD00; margin-bottom: 15px;}
 #local img { margin-left:68px;}
-#conheca-natal img { margin-left:8px;}
+#conheca-natal img { margin-left:47px; height: 361px;}
 
 /* Css Images do local*/
 #fotos-local img { background: white; border: 1px solid #BBBBBB; margin: 7px 14px 12px 0; padding: 5px; height: 107px; width: 175px; }
