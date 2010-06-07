@@ -22,7 +22,13 @@ javascript_imports: jquery.fancybox-1.3.1.pack single_img
 %p
   %strong
     %u Location:
-%ul.ul_disc
+
+%iframe{ :width => "640", :height => "480", :frameborder => "0", :scrolling => "no", :marginheight => "0", :marginwidth => "0", :src => "http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Praiamar+Natal+Hotel+e+Convention,+Natal+-+Rio+Grande+do+Norte,+Brasil&amp;sll=-5.872484,-35.178362&amp;sspn=0.0065,0.012628&amp;ie=UTF8&amp;hq=Praiamar+Natal+Hotel+e+Convention,&amp;hnear=Natal+-+RN,+Brazil&amp;cid=9712831464907072966&amp;ll=-5.843838,-35.169983&amp;spn=0.163938,0.219727&amp;z=12&amp;iwloc=A&amp;output=embed"}
+%br
+%small
+  %a{ :href => "http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Praiamar+Natal+Hotel+e+Convention,+Natal+-+Rio+Grande+do+Norte,+Brasil&amp;sll=-5.872484,-35.178362&amp;sspn=0.0065,0.012628&amp;ie=UTF8&amp;hq=Praiamar+Natal+Hotel+e+Convention,&amp;hnear=Natal+-+RN,+Brazil&amp;cid=9712831464907072966&amp;ll=-5.843838,-35.169983&amp;spn=0.163938,0.219727&amp;z=12&amp;iwloc=A", :style => "color:#0000FF;text-align:left"}
+    View Larger Map
+%ul.ul_disc.top
   %li 14km from the Airport
   %li 12km from the City Center
   %li Exclusive beach access
@@ -38,6 +44,42 @@ javascript_imports: jquery.fancybox-1.3.1.pack single_img
   %strong
     %u Photos:
 #fotos-local
+  %p Location:
+  %a{ :class => "group", :rel => "localização", :href => "../images/local/foto07.jpg"}
+    %img{ :title => "View from the beach", :src => "../images/local/foto07.jpg", :alt => "View from the beach"}
+  %a{ :class => "group", :rel => "localização", :href => "../images/local/foto08.jpg"}
+    %img{ :title => "Location of the Hotel on the beach", :src => "../images/local/foto08.jpg", :alt => "Location of the Hotel on the beach"}
+  %a{ :class => "group", :rel => "localização", :href => "../images/local/foto09.jpg"}
+    %img{ :title => "Leisures", :src => "../images/local/foto09.jpg", :alt => "Leisures"}  
+.clear
+#fotos-local
+  %p The Hotel:
+  %a{ :class => "group", :rel => "oHotel", :href => "../images/local/foto10.jpg"}
+    %img{ :title => "Shop of Workmanship", :src => "../images/local/foto10.jpg", :alt => "Shop of Workmanship"}
+  %a{ :class => "group", :rel => "oHotel", :href => "../images/local/foto11.jpg"}
+    %img{ :title => "Bedrooms", :src => "../images/local/foto11.jpg", :alt => "Bedrooms"}
+  %a{ :class => "group", :rel => "oHotel", :href => "../images/local/foto12.jpg"}
+    %img{:title => "Suites Bedrooms", :src => "../images/local/foto12.jpg", :alt => "Suites Bedrooms"}
+.clear
+#fotos-local
+  %p Leisure
+  %a{ :class => "group", :rel => "lazer", :href => "../images/local/foto12.jpg"}
+    %img{ :title => "Pools", :src => "../images/local/foto13.jpg", :alt => "Pools"}
+  %a{ :class => "group", :rel => "lazer", :href => "../images/local/foto14.jpg"}
+    %img{:title => "Pools", :src => "../images/local/foto14.jpg", :alt => "Pools"}
+  %a{ :class => "group", :rel => "lazer", :href => "../images/local/foto15.jpg"}
+    %img{ :title => "Pools", :src => "../images/local/foto15.jpg", :alt => "Pools"}
+#fotos-local
+  %p Gastronomy
+  %a{ :class => "group", :rel => "gastronomy", :href => "../images/local/foto16.jpg"}
+    %img{ :title => "Breakfast", :src => "../images/local/foto16.jpg", :alt => "Breakfast"}
+  %a{ :class => "group", :rel => "gastronomy", :href => "../images/local/foto17.jpg"}
+    %img{:title => "Hotel Bar", :src => "../images/local/foto17.jpg", :alt => "Hotel Bar"}
+  %a{ :class => "group", :rel => "gastronomy", :href => "images/local/foto18.jpg"}
+    %img{ :title => "Breakfast", :src => "../images/local/foto18.jpg", :alt => "Breakfast"}
+
+#fotos-local
+  %p Events
   %a{ :class => "group", :rel => "fotos-local", :href => "../images/local/foto01.jpg"}
     %img{ :title => "Auditorium Room Praiamar", :src=> "../images/local/foto01.jpg", :alt => "Auditorium Room Praiamar", :align => "left", :height => "107"}
   %a{ :class => "group", :rel => "fotos-local", :href => "../images/local/foto02.png"}
