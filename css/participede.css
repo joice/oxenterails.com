@@ -1,14 +1,16 @@
 body { font: bold 16px auto Arial, Helvetica, Verdana, sans-serif; margin: 0; }
 
-p { font-size: 14px; margin-bottom: 20px; color: #898989; }
-a { color: #043158; }
+p { font-size: 14px; margin-bottom: 20px; color: #6B0000; }
+a { color: #6B0000; }
+a:hover { color: #F8810D;} 
 
 /* Tabela */
 
 table{ font-size: 12px; width: 480px; text-align: left; border-collapse: collapse; }
 table.prices { width: 520px;}
-table th{ width: 100px; font-size: 11px; font-weight: bold; padding: 6px 6px 6px 12px; background: #107096; border-top: 1px solid #c1dad7; border-bottom: 1px solid #c1dad7; border-right: 1px solid #c1dad7; letter-spacing: 2px; text-align: left; text-transform: uppercase; color: #FFFFFF; }
-table td{ width: 100px; padding: 6px 6px 6px 12px; border-bottom: 1px solid #c1dad7; border-right: 1px solid #c1dad7; color: #4F6B72; background: #FFFFFF; }
+table th{ width: 100px; font-size: 11px; font-weight: bold; padding: 6px 6px 6px 12px; background: #FFEED8; border-top: 2px solid #F8810D; border-bottom: 1px solid #F8810D; border-right: 1px solid #c1dad7; letter-spacing: 2px; text-align: left; text-transform: uppercase; color: #FFFFFF; }
+table th.empty, th.period { background: #FFC87F;}
+table td{ width: 100px; padding: 6px 6px 6px 12px; border-bottom: 1px solid #FFEED8; border-right: 1px solid #c1dad7; color: #4F6B72; background: #FFFFFF; }
 table th.period, td.price{ width: 130px;}
 
 caption {

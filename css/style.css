@@ -26,7 +26,8 @@ ul{list-style:disc}
 #menu a:hover, #local a:hover  { color: #FFFFFF;}
 
 #submenu{ background-color: #6b0000; height: 28px; }
-#submenu li a { font-size: 14px; font-weight: bold; text-decoration: none; color: #FFFFFF; }
+#submenu li a { font-size: 14px; font-weight: bold; text-decoration: none; color: #FFFFFF; text-transform: uppercase;}
+#submenu li a:hover { text-decoration: underline; }
 
 img.twitter { margin-left: 10px; }
 
@@ -57,7 +58,8 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 #content img.separator { margin-top: 30px; border: 0 none; }
 #content img.separator.ag { margin-left: -20px; }
 #content #palestrantes, #content #cinscricoes, #content #speakers, #content #register { margin-left: -60px;}
-#content #contact { margin-left: -140px; }
+#content #contact, #content #trabalhos { margin-left: -140px; }
+#content #trabalhos p { margin-left: 8px;}
 #content #palestrantes p { letter-spacing: 0; margin-left: 3px;}
 #content #speakers p { margin-left: 16px;}
 #content #cinscricoes p { letter-spacing: 0; margin-left: 5px;}
@@ -73,7 +75,7 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 #local { text-align: center; }
 #local img, #conheca-natal img { border: 1px solid #FBBD00; margin-bottom: 15px;}
 #local img { margin-left:68px;}
-#conheca-natal img { margin-left:8px;}
+#conheca-natal img { margin-left:47px; height: 361px;}
 
 /* Css Images do local*/
 #fotos-local img { background: white; border: 1px solid #BBBBBB; margin: 7px 14px 12px 0; padding: 5px; height: 107px; width: 175px; }
@@ -148,7 +150,7 @@ border: 1px dotted #F8810D;
 #contato fieldset { border: none; }
 #contato fieldset label { margin-left: 5px; display: block; padding: 6px 0 3px 6px; font-size: 14px; }
 #contato fieldset label.error { color: red; font-size: 12px;}
-#contato fieldset .text { width: 590px; padding: 5px; font-size: 14px; color: #898989; background: #fafafa; border: 1px solid #6b0000; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+#contato fieldset .text { width: 590px; padding: 5px; font-size: 14px; color: #ff6600; background: #fafafa; border: 1px solid #f8800d; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
 #contato fieldset textarea { height: 84px; }
-#contato #enviar { background: #951313; color: #FFFFFF; border: 1px solid #6b0000; font-size: 16px; cursor: pointer; padding: 4px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
-#contato #enviar:hover { background: #7b0000;  }
+#contato #enviar { background: #f8800d; color: #FFFFFF; border: 1px solid #ff6600; font-size: 16px; cursor: pointer; padding: 4px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+#contato #enviar:hover { background: #ff6600;  }
