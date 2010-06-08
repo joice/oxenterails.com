@@ -18,7 +18,8 @@ caption {
   width: 700px;   
   font: bold 20px Helvetica,"Trebuchet MS", Verdana, Arial, sans-serif;
   text-align: left;
-  color:#A31F00;
+  color:#6B0000;
+  margin-top: 25px;
 }
 
 .submission_text, .submission_date { width: 55%;}
