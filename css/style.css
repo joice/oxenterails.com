@@ -21,7 +21,7 @@ ul{list-style:disc}
 #submenu ul {padding-top: 8px;}
 #menu ul li, #submenu ul li  { display: inline; font-size: 13px;}
 #submenu ul li { padding-right: 2.5px;}
-#menu li, #submenu li { float: left; padding-left: 13.5px; margin-right: 5px; }
+#menu li, #submenu li { float: left; padding-left: 10.5px; margin-right: 5px; }
 #menu li a { text-decoration: none; text-transform: uppercase; color: #6b0000; font-weight: bold; display: block;}
 #menu .current a { color: #FFFFFF; background: #6b0000; margin-top: -8px; padding: 10px 17px 9px; }
 #menu a:hover, #local a:hover  { color: #FFFFFF;}
@@ -59,8 +59,9 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 #content img.separator { margin-top: 30px; border: 0 none; }
 #content img.separator.ag { margin-left: -20px; }
 #content #palestrantes, #content #cinscricoes, #content #speakers, #content #register { margin-left: -60px;}
-#content #contact, #content #trabalhos { margin-left: -140px; }
-#content #trabalhos p { margin-left: 8px;}
+#content #contact, #content #propostas { margin-left: -140px; }
+#content #propostas p { margin-left: 8px;}
+#content #newsletter p { margin-left: 0;}
 #content #palestrantes p { letter-spacing: 0; margin-left: 3px;}
 #content #speakers p { margin-left: 16px;}
 #content #cinscricoes p { letter-spacing: 0; margin-left: 5px;}
@@ -74,10 +75,12 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 
 
 #local { text-align: center; }
-#local img, #conheca-natal img { border: 1px solid #FBBD00; margin-bottom: 15px;}
+#local img, #conheca-natal img, #agencia a img { border: 1px solid #FBBD00; margin-bottom: 15px;}
 #local img { margin-left:68px;}
 #conheca-natal img { margin-left:47px; height: 361px;}
 
+#agencia a img { margin-left: 20px;}
+.mce_inline_error { font-weight: bold; float: left; z-index: 1; width: 80%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: rgb(255, 0, 0);}
 /* Css Images do local*/
 #fotos-local img { background: white; border: 1px solid #BBBBBB; margin: 7px 14px 12px 0; padding: 5px; height: 107px; width: 175px; }
 #fotos-local p { margin-bottom: 5px; }
@@ -94,7 +97,7 @@ background-color: #fafafa;
 border: 1px solid #F8881B;
 border-collapse: collapse;
 border-spacing: 0px;
-width: 640px;
+width: 700px;
 text-align: center; }
 
 #programacao #date
