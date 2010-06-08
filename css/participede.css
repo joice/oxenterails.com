@@ -8,7 +8,7 @@ a:hover { color: #F8810D;}
 
 table{ font-size: 12px; width: 480px; text-align: left; border-collapse: collapse; }
 table.prices { width: 620px;}
-table th{ width: 150px; font-weight: bold; padding: 6px 6px 6px 12px; background: #FFEED8; border-top: 2px solid #F8810D; border-bottom: 1px solid #F8810D; border-right: 1px solid #c1dad7; letter-spacing: 2px; text-align: left; text-transform: uppercase; color: #404040; }
+table th{ width: 150px; font-weight: bold; padding: 6px 6px 6px 12px; background: #FFEED8; border-top: 2px solid #F8810D; border-bottom: 1px solid #F8810D; border-right: 1px solid #F8810D; letter-spacing: 2px; text-align: left; text-transform: uppercase; color: #6b0000; }
 table th.empty, th.period { background: #FFC87F;}
 table td{ width: 100px; padding: 6px 6px 6px 12px; border-bottom: 1px dotted #F8810D; border-right: 1px dotted #F8810D; color: #404040; background: #FFFFFF; }
 table th.period, td.price{ width: 130px;}
@@ -18,7 +18,7 @@ caption {
   width: 700px;   
   font: bold 20px Helvetica,"Trebuchet MS", Verdana, Arial, sans-serif;
   text-align: left;
-  color:#7B7B7B;
+  color:#A31F00;
 }
 
 form.formtastic fieldset ol li.string input {
