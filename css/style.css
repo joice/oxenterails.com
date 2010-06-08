@@ -19,8 +19,9 @@ ul{list-style:disc}
 #menu { background: url(../images/bg/bg-menu.jpg) repeat-x top; height: 40px; }
 #menu ul{ padding-top: 14px; }
 #submenu ul {padding-top: 8px;}
-#menu ul li, #submenu ul li  { display: inline; font-size: 13px; padding-right: 2.5px;}
-#menu li, #submenu li { float: left; padding-left: 14.5px; margin-right: 5px; }
+#menu ul li, #submenu ul li  { display: inline; font-size: 13px;}
+#submenu ul li { padding-right: 2.5px;}
+#menu li, #submenu li { float: left; padding-left: 13.5px; margin-right: 5px; }
 #menu li a { text-decoration: none; text-transform: uppercase; color: #6b0000; font-weight: bold; display: block;}
 #menu .current a { color: #FFFFFF; background: #6b0000; margin-top: -8px; padding: 10px 17px 9px; }
 #menu a:hover, #local a:hover  { color: #FFFFFF;}
@@ -46,7 +47,7 @@ img.twitter { margin-left: 10px; }
 #content .ul_disc li { margin-bottom: 5px; }
 #content .ul_disc a.mail, #content #guests a { text-decoration: none; }
 #content #guests a:hover { text-decoration: underline; color: #f8810d; }
-
+#content p.left { margin-left: 15px; }
 
 hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 
