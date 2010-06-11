@@ -70,6 +70,9 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 #sponsors { text-align: center; margin-top: 60px; }
 #apoio { text-align: center; }
 #sponsors h6, #apoio h6 { font-size: 13px; }
+#footer h6 { font-size: 12px; }
+#footer #promocao, #footer #realizacao { text-align: center; }
+#footer #promocao img, #footer #realizacao img { margin-top: -10px; }
 
 #apress{ background: #F8CE7A; height: 90px; margin-left: 35px; width: 150px;}
 #apress img{ padding-top: 15px; } 
