@@ -17,9 +17,9 @@ ul{list-style:disc}
 #translate{ position: absolute; right: 0px; top: 307px; }
 
 #menu { background: url(../images/bg/bg-menu.jpg) repeat-x top; height: 40px; }
-#menu ul{ padding-top: 14px; }
+#menu ul{ padding-top: 15px; }
 #submenu ul {padding-top: 8px;}
-#menu ul li, #submenu ul li  { display: inline; font-size: 13px;}
+#menu ul li, #submenu ul li  { display: inline; font-size: 12px;}
 #submenu ul li { padding-right: 2.5px;}
 #menu li, #submenu li { float: left; padding-left: 10.5px; margin-right: 5px; }
 #menu li a { text-decoration: none; text-transform: uppercase; color: #6b0000; font-weight: bold; display: block;}
