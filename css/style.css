@@ -18,6 +18,7 @@ ul{list-style:disc}
 
 #menu { background: url(../images/bg/bg-menu.jpg) repeat-x top; height: 40px; }
 #menu ul{ padding-top: 15px; }
+#menu ul#menubar-en { padding-left: 50px;}
 #submenu ul {padding-top: 8px;}
 #menu ul li, #submenu ul li  { display: inline; font-size: 12px;}
 #submenu ul li { padding-right: 2.5px;}
@@ -39,6 +40,7 @@ img.twitter { margin-left: 10px; }
 #content ul { list-style-type: none; }
 #content ol { margin-left: 20px; }
 #content ul li, #content ol li { font-size: 14px; }
+#content #location ul li p { letter-spacing: 0; }
 #content ul li a, #content ol li a { font-weight: bold; color: #A31F00; }
 #content ul li .no-bold, #content ol li .no-bold { font-weight: normal; }
 #content .ul_none { margin-left: 20px; }
@@ -58,7 +60,7 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 #content #calls img.call { margin-top: -11px; margin-left: 10px; margin-bottom: 5px; border: 2px solid #333; -moz-border-radius: 4px; }
 #content img.separator { margin-top: 30px; border: 0 none; }
 #content img.separator.ag { margin-left: -20px; }
-#content #palestrantes, #content #cinscricoes, #content #speakers, #content #register { margin-left: -60px;}
+#content #palestrantes, #content #cinscricoes, #content #speakers, #content #register, #content #contact-en { margin-left: -60px;}
 #content #contact, #content #propostas { margin-left: -140px; }
 #content #propostas p { margin-left: 8px;}
 #content #newsletter p { margin-left: 0;}
@@ -111,7 +113,7 @@ background-color: #fafafa;
 border: 1px solid #F8881B;
 border-collapse: collapse;
 border-spacing: 0px;
-width: 700px;
+width: 650px;
 text-align: center; }
 
 #programacao #date

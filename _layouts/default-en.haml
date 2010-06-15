@@ -11,6 +11,11 @@
       = css_tag("#{css_file}.css")
     - %w(sifr sifr-config).each do |js|
       = script_tag("#{js}.js")
+    %script{ :type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" }
+    
+    - if variable(:external_javascripts)
+      - variable(:external_javascripts).split(' ').each do |js|
+        %script{ :src => js, :type => 'text/javascript'}
   %body
     #header
       .container_12
@@ -20,8 +25,8 @@
       
     #menu
       .container_12
-        .grid_9.prefix_2
-          %ul
+        .grid_12
+          %ul#menubar-en
             - site.posts.each do |post|
               - if post.categories.include?("en")
                 %li{:class => "#{'current' if (page.title == post.title)}"}
@@ -32,27 +37,39 @@
       %div{:class => "container_12 #{layout_type}"}
         #content.content_12
           - if layout_type == 'internal_page'
-            .grid_8.prefix_2
+            .grid_8.prefix_1.alpha
               %h2= page.title
               = content
+            #sponsors.grid_3.omega
+              %h6 SUPPORT
+              #apress
+                %a{ :href => "http://apress.com/", :target => "_blank"}
+                  %img{ :src => "../images/sponsors/apress.gif", :alt => "Apress - The Experts Voice", :title => "Apress - The Experts Voice", :height => "60px"}
           - else
             = content
         .clear
     #footer
       %hr.content
       .container_12
-        #credenciais.grid_3.prefix_1.alpha
+        #credenciais.grid_3.alpha
           %p
             %a(href="/")
               %strong oxenterails.com
             %br
               &copy; 2010 tink! It's all about IT  
-        .grid_2.prefix_5.omega
+        #promocao.grid_2.prefix_1
+          %h6 PROMOTION
+          %a{:href => "http://www.assespro.org.br/", :target => "_blank"}
+            %img{:src => "../images/sponsors/assespro.jpg", :alt => "Assespro", :title => "Assespro", :height => "45"}
+        #realizacao.grid_2
+          %h6 EXECUTION
+          %a{:href => "http://tink.com.br/", :target => "_blank"}
+            %img{:src => "../images/sponsors/tink.jpg", :alt => "tink! it's is all about IT", :title => "tink! it's is all about IT", :height => "45"}
+        .grid_2.prefix_2.omega    
           %a(href="/" title="Oxente Rails 2010")
             %img{ :src => "../images/bg/logo-footer.jpg", :title => "Oxente Rails 2010"}
 
 
-    %script{ :type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" }
     - %w(jquery.validate localization/messages_ptbr).each do |js_file|
       = script_tag("#{js_file}.js")
     - if variable(:javascript)
