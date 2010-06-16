@@ -1,7 +1,7 @@
 body { line-height:1; font-size:62.5%; font-family: Arial, Helvetica, Verdana, sans-serif; background-color: #fff7bc; color: #6b0000; }
 
 h2{font-size:26.77px}
-h3{ color: #A31F00; }
+h3, h5{ color: #A31F00; }
 p { font-size: 14px; margin-bottom: 20px; letter-spacing: 1px; line-height: 18px; }
 a { color: #6b0000; }
 a:hover { color: #f8810d; }
@@ -49,7 +49,7 @@ img.twitter { margin-left: 10px; }
 #content .ul_disc li { margin-bottom: 5px; }
 #content .ul_disc a.mail, #content #guests a { text-decoration: none; }
 #content #guests a:hover { text-decoration: underline; color: #f8810d; }
-#content p.left { margin-left: 15px; }
+#content .left { margin-left: 15px; }
 
 hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 
