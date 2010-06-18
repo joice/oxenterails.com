@@ -54,6 +54,8 @@ img.twitter { margin-left: 10px; }
 hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 
 /* Divs de chamadas na página principal */
+#content #calls #inicio { margin-top: -30px;}
+
 #content #calls p { font-size: 16px; color: #000; margin-left: 19px; }
 #content #calls a {text-decoration: none; color: #000; }
 #content #calls a:hover p {text-decoration: underline; color: #6b0000; }
@@ -72,15 +74,22 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 #sponsors { text-align: center; margin-top: 60px; }
 #apoio { text-align: center; }
 #sponsors h6, #apoio h6 { font-size: 13px; }
+
+/* Apoio */
+
+.apoio, .patrocinio { margin-bottom: 20px; ; margin-left: 35px; width: 150px;}
+.apoio { background:#F8CE7A; height: 90px; }
+.bronze { background:#CD7F32; height: 60px; }
+#apress img, #plataforma img{ padding-top: 15px; }
+
+/* FOOTER */
+
 #footer h6 { font-size: 12px; }
 #footer #promocao, #footer #realizacao, #footer #organizacao { text-align: center; }
 #footer #promocao img, #footer #realizacao img { margin-top: -10px; }
 #footer #organizacao img {margin-top: -12px;}
 
-/* Apoio */
 
-#apress{ background: #F8CE7A; margin-bottom: 20px; height: 90px; margin-left: 35px; width: 150px;}
-#apress img{ padding-top: 15px; } 
 
 /* Slideshow */
 

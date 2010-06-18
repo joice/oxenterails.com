@@ -49,8 +49,16 @@
               %h2= page.title
               = content
             #sponsors.grid_3.prefix_1.omega
-              %h6 APOIO
-              #apress
+              %h6
+                %u PATROCÍNIO
+              %h6
+                BRONZE
+              #plataforma.patrocinio.bronze
+                %a{ :href => "http://www.plataformatec.com.br/", :target => "_blank"}
+                  %img{ :src => "images/sponsors/plataforma.gif", :alt => "Plataforma - Tecnologia e Engenharia de Software", :title => "Plataforma - Tecnologia e Engenharia de Software", :width => "120px:"}
+              %h6 
+                %u APOIO
+              #apress.apoio
                 %a{ :href => "http://apress.com/", :target => "_blank"}
                   %img{ :src => "images/sponsors/apress.gif", :alt => "Apress - The Experts Voice", :title => "Apress - The Experts Voice", :height => "60px"}
           - else
