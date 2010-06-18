@@ -77,10 +77,11 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 
 /* Apoio */
 
-.apoio, .patrocinio { margin-bottom: 20px; ; margin-left: 35px; width: 150px;}
-.apoio { background:#F8CE7A; height: 90px; }
-.bronze { background:#CD7F32; height: 60px; }
+.apoio, .patrocinio { background: #F8CE7A; margin-bottom: 20px; ; margin-left: 35px; width: 150px;}
+.apoio { height: 90px; }
+.bronze { height: 60px; }
 #apress img, #plataforma img{ padding-top: 15px; }
+#plataforma img { padding: 5px; margin-top: 12px; background: #000}
 
 /* FOOTER */
 
