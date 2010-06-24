@@ -54,7 +54,7 @@ img.twitter { margin-left: 10px; }
 hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 
 /* Divs de chamadas na página principal */
-#content #calls #inicio { margin-top: -30px;}
+#content #calls #inicio { margin-top: -200px;}
 
 #content #calls p { font-size: 16px; color: #000; margin-left: 19px; }
 #content #calls a {text-decoration: none; color: #000; }
@@ -79,8 +79,10 @@ hr.content {border: 2px solid #6b0000; margin-top: -2px; }
 
 .apoio, .patrocinio { background: #F8CE7A; margin-bottom: 20px; ; margin-left: 35px; width: 150px;}
 .apoio { height: 90px; }
-.bronze { height: 60px; }
+.bronze { height: 105px; }
+.silver { height: 60px; }
 #apress img, #plataforma img{ padding-top: 15px; }
+#webhall img { background: #FFF; margin-top: 13px; padding: 10px; }
 #plataforma img { padding: 5px; margin-top: 12px; background: #000}
 
 /* FOOTER */
