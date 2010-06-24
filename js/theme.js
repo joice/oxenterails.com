@@ -1,5 +1,2 @@
-jQuery(document).ready(function($){
-  $(".slideshow").cycle({
-    fx: 'fade'
-  });
-});
+
+jQuery(document).ready(function($){$(".slideshow").cycle({fx:'fade'});});
