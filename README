@@ -1,3 +1,5 @@
+** If you've got RVM handy then
+
 echo 'rvm ree@oxente' > .rvmrc
 rvm gemset create oxente
 cd .
@@ -8,8 +10,25 @@ bundle install
 juicer install yui_compressor
 juicer install jslint
 
+** If you don't use RVM, just use this:
 
+sudo gem install rcov
+sudo gem install hpricot
+sudo gem install capistrano
+sudo gem install highline
+sudo gem install net-ssh
 
-To deploy it:
+sudo gem source -a http://gems.github.com
+sudo gem install henrik-jekyll
+
+sudo gem install haml
+sudo gem install compass
+sudo gem install juicer
+
+juicer install yui_compressor
+juicer install jslint
+
+** To deploy it:
 
 rake deploy
+
