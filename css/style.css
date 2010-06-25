@@ -61,6 +61,9 @@ hr.content{border:2px solid #6b0000;margin-top:-2px;}
 #content .container_slider{height:auto;}
 #content .slider .inside{height:214px;}
 #content .slideshow img{border:2px solid #333333; display: none; -moz-border-radius:4px;}
+#content ul li.pd_bottom{ padding-bottom: 20px;}
+#content img.spon{border: 1px solid; float: left; margin-right: 7px;}
+#content p.desc{padding-top:5px;}
 #local{text-align:center;}
 #local img, #conheca-natal img, #agencia a img{border:1px solid #FBBD00;margin-bottom:15px;}
 #local img{margin-left:68px;}
