@@ -41,30 +41,18 @@ img.twitter{margin-left:10px;}
 #content #guests a:hover{text-decoration:underline;color:#f8810d;}
 #content .left{margin-left:15px;}
 hr.content{border:2px solid #6b0000;margin-top:-2px;}
-#content #calls #inicio{margin-top:-200px;}
-#content #calls p{font-size:16px;color:#000;margin-left:19px;}
+#content #calls div{text-align:center;}
+#content #calls p{font-size:16px;color:#000;margin-left:19px;text-align:left;}
 #content #calls a{text-decoration:none;color:#000;}
 #content #calls a:hover p{text-decoration:underline;color:#6b0000;}
 #content #calls img.call{margin-top:-11px;margin-left:10px;margin-bottom:5px;border:2px solid #333;-moz-border-radius:4px;}
 #content img.separator{margin-top:30px;border:0 none;}
 #content img.separator.ag{margin-left:-20px;}
-#content #palestrantes, #content #cinscricoes, #content #speakers, #content #register, #content #contact-en{margin-left:-60px;}
-#content #contact, #content #propostas{margin-left:-140px;}
-#content #propostas p{margin-left:8px;}
-#content #newsletter p{margin-left:0;}
-#content #palestrantes p{letter-spacing:0;margin-left:3px;}
-#content #speakers p{margin-left:16px;}
-#content #cinscricoes p{letter-spacing:0;margin-left:5px;}
-#sponsors{text-align:center;margin-top:60px;}
-#apoio{text-align:center;}
-#sponsors h6, #apoio h6{font-size:13px;}
-.apoio, .patrocinio{background:#F8CE7A;margin-bottom:20px;;margin-left:35px;width:150px;}
-.apoio{height:90px;}
-.bronze{height:105px;}
-.silver{height:60px;}
-#apress img, #plataforma img{padding-top:15px;}
-#webhall img{background:#FFF;margin-top:13px;padding:10px;}
-#plataforma img{padding:5px;margin-top:12px;background:#000}
+#patrocinio{text-align:center;}
+#patrocinio h6{margin-top: 30px;}
+#sponsors h6, #patrocinio h6{font-size:13px;}
+#patrocinio{background-color: #fff7bc;}
+.tarja{background-color: #A31F00; color: white; padding-top: 3px; padding-bottom: 3px;}
 #footer h6{font-size:12px;}
 #footer #promocao, #footer #realizacao, #footer #organizacao{text-align:center;}
 #footer #promocao img, #footer #realizacao img{margin-top:-10px;}

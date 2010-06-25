@@ -36,30 +36,40 @@
       %hr.content
       %div{:class => "container_12 #{layout_type}"}
         #content.content_12
-          - if layout_type == 'internal_page'
-            .grid_8.prefix_1.alpha
+          .grid_9.alpha
+            - if layout_type == 'internal_page'
               %h2= page.title
-              = content
-            #sponsors.grid_3.omega
-              %h6
-                %u SPONSOR
-              %h6
-                SILVER
-              #plataforma.patrocinio.silver
+            = content
+          #sponsors.grid_3.omega
+            #patrocinio
+              %h5.tarja Sponsors
+              %h6 Gold
+              #gold.patrocinio
+                %a{ :href => "http://www.locaweb.com.br/", :target => "_blank"}
+                  %img{ :src => "../images/sponsors/locaweb.jpg", :alt => "Locaweb", :title => "Locaweb", :width => "120px:"}
+              %h6 Silver
+              #silver.patrocinio
                 %a{ :href => "http://www.plataformatec.com.br/", :target => "_blank"}
-                  %img{ :src => "../images/sponsors/plataforma.gif", :alt => "Plataforma - Technology and Software Engineering", :title => "Plataforma - Technology and Software Engineering", :width => "120px:"}
-              %h6
-                BRONZE
-              #webhall.patrocinio.bronze
+                  %img{ :src => "../images/sponsors/plataforma.gif", :alt => "Plataforma - Tecnologia e Engenharia de Software", :title => "Plataforma - Tecnologia e Engenharia de Software", :width => "120px:", :style => "background-color:black;"}
+                %br
+                %br
+                %br
+                %a{ :href => "http://www.hashrocket.com/", :target => "_blank"}
+                  %img{ :src => "../images/sponsors/hashrocket.jpg", :alt => "Hashrocket - Expertly Crafted Web", :title => "Hashrocket - Expertly Crafted Web", :width => "120px:", :style => "background-color:black;"}
+              %h6 Bronze
+              #bronze.patrocinio
+                %a{ :href => "http://www.peepcode.com/", :target => "_blank"}
+                  %img{ :src => "../images/sponsors/peepcode.jpg", :alt => "Peepcode Screencasts", :title => "Peepcode Screencasts", :width => "120px:", :style => "background-color:black;"}
+                %br
+                %br
+                %br
                 %a{ :href => "http://webhall.com.br/", :target => "blank"}
                   %img{ :src => "../images/sponsors/webhall.jpg", :alt => "webhall - Tecnologia da Informação", :title => "webhall - Tecnologia da Informação", :height => "59px:"}
-              %h6 
-                %u SUPPORT
-              #apress.apoio
+                %br
+                %br
+                %br
                 %a{ :href => "http://apress.com/", :target => "_blank"}
                   %img{ :src => "../images/sponsors/apress.gif", :alt => "Apress - The Experts Voice", :title => "Apress - The Experts Voice", :height => "60px"}
-          - else
-            = content
         .clear
     #footer
       %hr.content
