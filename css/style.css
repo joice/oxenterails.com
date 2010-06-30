@@ -88,9 +88,9 @@ hr.content{border:2px solid #6b0000;margin-top:-2px;}
 #guests ul{list-style:none outside none;}
 #guests ul li{height:auto !important;min-height:110px;padding-bottom:1em;}
 #guests li{font-size:1.2em;line-height:18px;}
-#guests li:hover{background:#FFFFFF;border:1px solid #FBBD00;}
+#guests li:hover {background:#FFFFFF;}
 #guests ul li img{background:none repeat scroll 0 0 #FFFFFF;float:left;padding:6px;}
-#guests h3{font-size:2em;margin:10px 0px;position:relative;top:2px;}
+#guests h3{font-size:2em;margin:10px 0px;position:relative;top:2px;padding-top:10px;}
 #guests h3, #guests p{margin-left:120px;}
 #guests h3 a{text-decoration:none;}
 #guests a{color:#A31F00;}
@@ -102,3 +102,12 @@ hr.content{border:2px solid #6b0000;margin-top:-2px;}
 #contato fieldset textarea{height:84px;}
 #contato #enviar{background:#f8800d;color:#FFFFFF;border:1px solid #ff6600;font-size:16px;cursor:pointer;padding:4px;-moz-border-radius:10px;-webkit-border-radius:10px;}
 #contato #enviar:hover{background:#ff6600;}
+
+.temas li {height:120px;text-align: left;}
+.temas li img {border:6px solid #FFF; float:left; margin-right:10px;}
+.temas li h5 {clear:none;font-size:20px; padding-top:10px; margin-bottom: 5px;}
+.temas li span {letter-spacing:0px;font-size:13px;}
+
+.atividades h4 {margin-bottom:10px;}
+.atividades p {letter-spacing:0px;text-align:left;}
+
