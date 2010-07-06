@@ -5,7 +5,7 @@ source :gemcutter
 gem "haml"
 gem "compass"
 gem "juicer"
-gem "action_pack"
+gem "actionpack"
 
 group :development do
   gem "rcov"
