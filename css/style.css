@@ -54,9 +54,10 @@ hr.content{border:2px solid #6b0000;margin-top:-2px;}
 #patrocinio{background-color: #fff7bc;}
 .tarja{background-color: #A31F00; color: white; padding-top: 3px; padding-bottom: 3px;}
 #footer h6{font-size:12px;}
-#footer #promocao, #footer #realizacao, #footer #organizacao{text-align:center;}
+#footer #promocao, #footer #realizacao, #footer #organizacao, #footer #media-partner{text-align:center;}
 #footer #promocao img, #footer #realizacao img{margin-top:-10px;}
 #footer #organizacao img{margin-top:-12px;}
+#footer #media-partner img{margin-left:15px;}
 #content .slider{border:none;height:214px;margin-top:10px;margin-bottom:20px;margin-left:30px;}
 #content .container_slider{height:auto;}
 #content .slider .inside{height:214px;}
@@ -72,7 +73,7 @@ hr.content{border:2px solid #6b0000;margin-top:-2px;}
 .mce_inline_error{font-weight:bold;float:left;z-index:1;width:80%;-moz-background-clip:-moz-initial;-moz-background-origin:-moz-initial;-moz-background-inline-policy:-moz-initial;color:rgb(255, 0, 0);}
 #fotos-local img{background:white;border:1px solid #BBBBBB;margin:7px 14px 12px 0;padding:5px;height:107px;width:175px;}
 #fotos-local p{margin-bottom:5px;}
-#footer{display:block;height:146px;margin-top:60px;background:url(../images/bg/bg-footer3.jpg) repeat-x bottom;}
+#footer{display:block;height:230px;margin-top:60px;background:url(../images/bg/bg-footer3.jpg) repeat-x bottom;}
 #footer a{text-decoration:none;}
 #footer a:hover{color:#6b0000;text-decoration:underline;}
 #footer #credenciais{margin-top:30px;}
