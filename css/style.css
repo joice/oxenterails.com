@@ -52,6 +52,9 @@ hr.content{border:2px solid #6b0000;margin-top:-2px;}
 #patrocinio h6{margin-top: 30px;}
 #sponsors h6, #patrocinio h6{font-size:13px;}
 #patrocinio{background-color: #fff7bc;}
+
+#sponsors .patrocinio a img { margin-bottom:15px;}
+
 .tarja{background-color: #A31F00; color: white; padding-top: 3px; padding-bottom: 3px;}
 #footer h6{font-size:12px;}
 #footer #promocao, #footer #realizacao, #footer #organizacao, #footer #media-partner{text-align:center;}
