@@ -80,15 +80,19 @@ hr.content{border:2px solid #6b0000;margin-top:-2px;}
 #footer a{text-decoration:none;}
 #footer a:hover{color:#6b0000;text-decoration:underline;}
 #footer #credenciais{margin-top:30px;}
-#table{background-color:#fafafa;border:1px solid #F8881B;border-collapse:collapse;border-spacing:0px;width:650px;text-align:center;}
-#table #date{border-bottom:2px solid #F98A1F;background-color:#ffc87f;text-align:center;font-family:Verdana;font-weight:bold;font-size:11px;color:#404040;}
-#table #date td{font-size:13px;}
-#table #topicos td{background-color:#FFEED8;}
-#table td{border-bottom:1px dotted #F8810D;font-family:Verdana, sans-serif, Arial;font-weight:normal;font-size:11px;color:#404040;text-align:center;padding:10px;}
-#table tr td{border:1px dotted #F8810D;}
-#table #tr:hover td{background:#fff9f1;color:#f8810d;}
+table{background-color:#fafafa;border:1px solid #F8881B;border-collapse:collapse;border-spacing:0px;width:650px;text-align:center;}
+table .date{border-bottom:2px solid #F98A1F;background-color:#ffc87f;text-align:center;font-family:Verdana;font-weight:bold;font-size:11px;color:#404040;}
+table .date td{font-size:13px;}
+table .topicos td{background-color:#FFEED8;}
+table td{border-bottom:1px dotted #F8810D;font-family:Verdana, sans-serif, Arial;font-weight:normal;font-size:11px;color:#404040;text-align:center;padding:10px;}
+table tr td{border:1px dotted #F8810D;}
+table .tr:hover td{background:#fff9f1;color:#f8810d;}
 .col-a{border-left:1px dotted #FFBE68;}
-#table #date td, #programacao td.col-a{font-weight:bold;}
+table .date td, #programacao td.col-a{font-weight:bold;}
+.coluna30{min-width:150px;}
+.lounge{background-color: #C3C8C8;vertical-align:middle;}
+.breaks{background-color: #BD4F19;color: white;}
+.keynote{background-color: #F8DE6E}
 #guests ul{list-style:none outside none;}
 #guests ul li{height:auto !important;min-height:110px;padding-bottom:1em;}
 #guests li{font-size:1.2em;line-height:18px;}
