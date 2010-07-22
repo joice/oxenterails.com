@@ -89,7 +89,8 @@ table tr td{border:1px dotted #F8810D;}
 table .tr:hover td{background:#fff9f1;color:#f8810d;}
 .col-a{border-left:1px dotted #FFBE68;}
 table .date td, #programacao td.col-a{font-weight:bold;}
-.coluna30{min-width:150px;}
+.coluna30{min-width:120px;}
+.horario{width:20px;}
 .lounge{background-color: #C3C8C8;vertical-align:middle;}
 .breaks{background-color: #BD4F19;color: white;}
 .keynote{background-color: #F8DE6E}
