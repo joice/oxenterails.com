@@ -4,98 +4,236 @@ title: Agenda
 layout_type: internal_page  
 ---
 
-%h3 Palestras sobre:
-.grid_9
-  .temas.grid_3
-    %h4 Rails
-    %ul
-      %li
-        %img{ :width => "78", :height => "86", :alt => "David Heinemeier Hansson", :src => "images/guests/dhh.jpg"}
-        %h5 DHH
-        %span Perguntas e respostas sobre o Rails 3
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Fábio Akita", :src => "images/guests/akita.png"}
-        %h5 Fábio Akita
-        %span As últimas novidades do mundo Ruby
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Dr. Nic Williams", :src => "images/guests/drnic.png"}
-        %h5 Dr. Nic
-        %span Contribuindo com Open Source
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Marcos Tapajós", :src => "images/guests/tapajos.png"}
-        %h5 Tapajós
-        %span NoSQL on Rails
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Fabio Kung", :src => "images/guests/kung.png"}
-        %h5 Fabio Kung
-        %span Automação e DevOps: tome o controle da sua infraestrutura!
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Cauê Guerra", :src => "images/guests/caue.png"}
-        %h5 Cauê Guerra
-        %span Usando Rails no mundo enterprise
-      %li
-        %img{ :width => "78", :height => "86", :alt => "José Valim", :src => "images/guests/valim.png"}
-        %h5 José Valim
-        %span Don't Repeat Yourself! @plataformatec e suas ferramentas open source
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Geoffrey Grosenbach", :src => "images/guests/geoffrey.png"}
-        %h5 Geoffrey Grosenbach
-        %span Quebrando as convenções do Rails para criar aplicações melhores
+%table.programacao
+  %tr.date
+    %td(colspan=4) 06/08 SEXTA-FEIRA
+  %tr.topicos
+    %td Horário
+    %td Sala A
+    %td Sala B
+    %td.coluna30 Lounge
+  %tr.linha
+    %td 07:30 08:50
+    %td.breaks(colspan=3) Credenciamento
+  %tr.linha
+    %td 08:50 09:10
+    %td.keynote(colspan=3)
+      Abertura
+      %br
+      Aldo Filho e Raniere Dantas
+  %tr.linha
+    %td 09:10 09:50
+    %td.keynote(colspan=3)
+      As últimas novidades no mundo Ruby
+      %br
+      %a{:href => "/palestrantes#akita", :target => "_blank"} Fábio Akita
+  %tr.linha
+    %td 09:50 10:20
+    %td.breaks(colspan=3) Coffee Break
+  %tr.linha
+    %td 10:30 11:00
+    %td.keynote(colspan=3)
+      Q&A Rails 3
+      %br
+      %a{:href => "/palestrantes#dhh", :target => "_blank"} David Heinemeier Hansson
+  %tr.linha
+    %td 11:00 11:40
+    %td.keynote(colspan=3)
+      Contribuindo com o Open Source
+      %br
+      %a{:href => "/palestrantes#nic", :target => "_blank"} Dr. Nic
+  %tr.linha
+    %td 11:40 12:20
+    %td.keynote(colspan=3)
+      Quebrando as convenções do Rails para criar aplicações melhores
+      %br
+      %a{:href => "/palestrantes#boss", :target => "_blank"} Geoffrey Grosenbach
+  %tr.linha
+    %td 12:30 14:00
+    %td.breaks(colspan=3) Almoço
+  %tr.linha
+    %td 14:00 14:30
+    %td
+      NoSQL
+      %br
+      %a{:href => "/palestrantes#tapajos", :target => "_blank"} Marcos Tapajós
+    %td
+      Aprendizado Ágil
+      %br
+      %a{:href => "/palestrantes#cukier", :target => "_blank"} Daniel Cukier
+    %td.lounge(rowspan=6) Open Spaces
+  %tr.linha
+    %td 14:30 15:00
+    %td
+      Testes com JavaScript
+      %br
+      %a{:href => "/palestrantes#nando", :target => "_blank"} Nando Vieira
+    %td
+      Agile
+      %br
+      %a{:href => "/palestrantes#cecilia", :target => "_blank"} Cecilia Fernandes
+  %tr.linha
+    %td 15:00 15:30
+    %td 
+      Automação e DevOps - Tome o controle da sua infraestrutura!
+      %br
+      %a{:href => "/palestrantes#kung", :target => "_blank"} Fábio Kung
+    %td
+      Don't Repeat Yourself - @plataformatec e suas ferramentas opensource
+      %br
+      %a{:href => "/palestrantes#cecilia", :target => "_blank"} José Valim
+  %tr.linha
+    %td 15:30 16:00
+    %td
+      Project Rescue
+      %br
+      %a{:href => "/palestrantes#hugo", :target => "_blank"} Hugo Baraúna
+    %td
+      Visão e Feedback
+      %br
+      %a{:href => "/palestrantes#rosafu", :target => "_blank"} Rafael Rosa Fu
+  %tr.linha
+    %td 16:00 16:30
+    %td.breaks(colspan=2) Coffee Break
+  %tr.linha
+    %td 16:30 17:00
+    %td
+      Escalando a RedeParede de 6 pra 1
+      %br
+      %a{:href => "/palestrantes#mergulhao", :target => "_blank"} Sylvestre Mergulhão
+    %td
+      Gerenciando times ágeis
+      %br
+      %a{:href => "/palestrantes#leandro", :target => "_blank"} Leandro Silva
+  %tr.linha
+    %td 17:00 18:00
+    %td Jogo da Comunicação
+    %td Extreme Hour
+    %td.lounge XP Game
+  %tr.linha
+    %td 18:30 20:00
+    %td.keynote(colspan=3) Desconferêcia
+  %tr.linha
+    %td 20:30 23:00
+    %td.breaks(colspan=3) Hora-Extra
 
-  .temas.grid_3.alpha
-    %h4 Agilidade
-    %ul
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Vinicius Telles", :src => "images/guests/vinicius.png"}
-        %h5 Vinicius Teles
-        %span Fuja da escravidão
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Thais Camilo", :src => "images/guests/thais.png"}
-        %h5 Thais Camilo
-        %span Dia-a-dia de uma rocketeer
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Hugo Baraúna", :src => "images/guests/hugo.jpg"}
-        %h5 Hugo Baraúna
-        %span Project Rescue: salvando projetos à beira do precipício
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Daniel Cukier", :src => "images/guests/daniel.jpg"}
-        %h5 Daniel Cukier
-        %span Pensamento e aprendizado ágil 
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Pedro Belo", :src => "images/guests/pedro.jpg"}
-        %h5 Pedro Belo
-        %span Dividindo complexidade entre sistemas - Lições aprendidas no Heroku
 
-  .temas.grid_3.omega
-    %h4 Empreendendorismo
-    %ul
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Carlos Brando", :src => "images/guests/brando.png"}
-        %h5 Brando
-        %span Criando uma carreira notável em desenvolvimento de software
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Henrique Bastos", :src => "images/guests/henrique.png"}
-        %h5 Henrique Bastos
-        %span Empreendendo uma comunidade de sucesso
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Ale Gomes", :src => "images/guests/alegomes.jpg"}
-        %h5 Ale Gomes
-        %span Start you up - não basta desenvolver, tem que empreender
-      %li
-        %img{ :width => "78", :height => "86", :alt => "Rafael Lima", :src => "images/guests/rafael.jpg"}
-        %h5 Rafael Lima
-        %span Transformando ideias em negócios rentáveis
+%table.programacao
+  %tr.date
+    %td(colspan=4) 07/08 SÁBADO
+  %tr.topicos
+    %td Horário
+    %td Sala A
+    %td Sala B
+    %td.coluna30 Lounge
+  %tr.linha
+    %td 08:00 08:50
+    %td.breaks(colspan=3) Credenciamento
+  %tr.linha
+    %td 08:50 09:00
+    %td.keynote(colspan=3)
+      Abertura
+      %br
+      Aldo Filho e Raniere Dantas
+  %tr.linha
+    %td 09:10 09:50
+    %td.keynote(colspan=3)
+      Transformando idéias em negócios rentáveis
+      %br
+      %a{:href => "/palestrantes#rafael", :target => "_blank"} Rafael Lima
+  %tr.linha
+    %td 09:50 10:30
+    %td.keynote(colspan=3)
+      Criando uma carreira notável em desenvolvimento de software
+      %br
+      %a{:href => "/palestrantes#brando", :target => "_blank"} Carlos Brando
+  %tr.linha
+    %td 10:30 11:00
+    %td.breaks(colspan=3) Coffee Break
+  %tr.linha
+    %td 11:00 11:40
+    %td.keynote(colspan=3)
+      Start You Up - Não basta desenvolver, tem que empreender
+      %br
+      %a{:href => "/palestrantes#ale", :target => "_blank"} Alê Gomes
+  %tr.linha
+    %td 11:40 12:20
+    %td.keynote(colspan=3)
+      Empreendendo uma comunidade de sucesso
+      %br
+      %a{:href => "/palestrantes#henrique", :target => "_blank"} Henrique Bastos
+  %tr.linha
+    %td 12:30 14:00
+    %td.breaks(colspan=3) Almoço
+  %tr.linha
+    %td 14:00 14:30
+    %td
+      Dividindo complexidade entre sistemas - Lições aprendidas no Heroku
+      %br
+      %a{:href => "/palestrantes#belo", :target => "_blank"} Pedro Belo
+    %td
+      Outsourcing (ou como trabalhar para clientes gringos)
+      %br
+      %a{:href => "/palestrantes#franco", :target => "_blank"} Rodrigo Franco
+    %td.lounge(rowspan=4) Coding DOJOs
+  %tr.linha
+    %td 14:30 15:00
+    %td
+      Cases de Rails no mercado local
+      %br
+      %a{:href => "/palestrantes#david", :target => "_blank"} David William
+    %td
+      Dia-a-dia de uma Rocketeer
+      %br
+      %a{:href => "/palestrantes#thais", :target => "_blank"} Thais Camilo
+  %tr.linha
+    %td 15:00 15:30
+    %td 
+      Refatorando Código Ruby
+      %br
+      %a{:href => "/palestrantes#carlos", :target => "_blank"} Carlos Henrique Souza
+    %td
+      Usando Rails no mundo enterprise
+      %br
+      %a{:href => "/palestrantes#caue", :target => "_blank"} Cauê Guerra
+  %tr.linha
+    %td 15:30 16:00
+    %td
+      Testes automatizados dentro do browser com Cucumber, Capybara e Webdriver/Selenium 2
+      %br
+      %a{:href => "/palestrantes#mauricio", :target => "_blank"} Maurício Linhares
+    %td
+      Melhorando na carreira e sendo sua start-up
+      %br
+      %a{:href => "/palestrantes#alberto", :target => "_blank"} Alberto Luiz Souza
+  %tr.linha
+    %td 16:00 16:30
+    %td.breaks(colspan=3) Coffee Break
+  %tr.linha
+    %td 16:30 17:30
+    %td.keynote(colspan=3)
+      Fuja da Escravidão
+      %br
+      %a{:href => "/palestrantes#teles", :target => "_blank"} Vinicius Teles
+  %tr.linha
+    %td 17:30 18:30
+    %td.keynote(colspan=3) Q&A com todos os palestrantes
+  %tr.linha
+    %td 18:30 19:00
+    %td.breaks(colspan=3) Fechamento
+  %tr.linha
+    %td 19:30 23:00
+    %td.breaks(colspan=3) Hora-Extra
 
 .clear
-%h3 Tá pensando que acabou? Tá enganado!
+%h3 E o que é esse tanto de coisa?
 .grid_9
-  .atividades.grid_3
-    %h4 Dojo
-    %p Atividade de programação que visa usar TDD e programação em par para resolver um problema proposto
-  .atividades.grid_3.alpha
-    %h4 Open Spaces
-    %p Espaço aberto para diversas discussões
-  .atividades.grid_3.omega
-    %h4 Desconferência
-    %p Apresentação de pequenas palestras sobre assuntos fora da grade que normalmente apresentadas no final do dia.
-
+.atividades.grid_3.alpha
+  %h4 Open Spaces
+  %p Espaço aberto para discussões que não se limitaram à grade e precisam ser discutidas mais a fundo
+.atividades.grid_3
+  %h4 Coding Dojo
+  %p Atividade de programação que visa usar TDD e programação em par para resolver um problema proposto estimulando as boas práticas e o aprendizado mútuo dos participantes
+.atividades.grid_3.omega
+  %h4 Desconferência
+  %p Apresentação de pequenas palestras sobre assuntos fora da grade que normalmente são apresentadas no final do dia. Os participantes procuram a organização com o tema e têm algum tempo no palco pra falar!
