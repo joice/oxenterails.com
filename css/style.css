@@ -68,6 +68,10 @@ hr.content{border:2px solid #6b0000;margin-top:-2px;}
 #content ul li.pd_bottom{ padding-bottom: 20px;}
 #content img.spon{border: 1px solid; float: left; margin-right: 7px;}
 #content p.desc{padding-top:5px;}
+#inscreva {background:#ffc87f;padding:10px 10px 1px;margin-bottom:20px;}
+#inscreva p {margin-bottom:10px;}
+#inscreva p strong span{color:FireBrick;font-size:16px;}
+#inscrevase h3 {background:#A31F00;color:#fff;padding:6px;text-align:center;margin-bottom:0px;}
 #local{text-align:center;}
 #local img, #conheca-natal img, #agencia a img{border:1px solid #FBBD00;margin-bottom:15px;}
 #local img{margin-left:68px;}
