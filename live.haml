@@ -1,0 +1,44 @@
+---
+layout: default
+title: Live do Oxente Rails 2010!
+---
+%script{:type => "text/javascript", :src => "/js/swfobject.js"}
+%p
+  %a{:href => 'http://www.egenial.com.br/', :target => '_blank'}
+    %img{:src => '/images/sponsors/egenial.png', :alt => 'E-Genial', :width => '200', :height => '72'}
+
+#showvideo
+  :javascript
+    var parameters =
+      {
+        id: "1",
+        src: "rtmp://tomsas.com.br/oxenterails",
+        autoPlay: "true",
+        width: "320",
+        height: "240",
+        autoHideControlBar: "true",
+        controlBarPosition: "floating",
+        streamType: "live" 
+        //,plugin_simple : "http://osmf.realeyes.com/plugins/simple/SimpleOSMFPlugin.swf"
+        //,simple_namespace : "http://osmf.realeyes.com/plugins/simple"
+        //,simple_message : "carregou"
+      };
+      var isiPad  = navigator.userAgent.match(/iPad/i) != null;  
+      var isiPhone    = navigator.userAgent.match(/iPhone/i) != null;    
+      var isiPod  = navigator.userAgent.match(/iPod/i) != null;
+      var IsiPhoneOS = isiPhone || isiPad || isiPod ;
+      if(IsiPhoneOS){
+        showvideo.innerHTML = "<video width='320' height='240' autoplay='true' src='http://srvvenus.canaldoboi.com:1935/live/_definst_/mp4:livecx/playlist.m3u8' controls='true'></video>";
+      }
+      else{
+        swfobject.embedSWF( 
+          "/flash/StrobeMediaPlayback.swf",
+          "showvideo",
+          parameters["width"], parameters["height"],
+          "10.0.0",
+          {},
+          parameters,
+          { allowFullScreen: "true" },
+          { name: "StrobeMediaPlayback" }
+        );
+      }
