@@ -1,0 +1,29 @@
+#photos .image-container, #photos .lightbox {
+	float: left;
+	margin: 5px 8px;
+}
+#photos .image-container p {
+	margin: 0;
+	padding: 0;
+}
+#photos .image-container .date {
+	color: silver;
+	font-size: 0.85em;
+}
+#navigate {
+	margin-bottom: 10px;
+	padding-left: 8px;
+	}
+#navigate a, #navigate h2 {
+	display: inline;
+}
+#navigate a{ font-size:16px;}
+#navigate a.backlink {
+	background: transparent url('../img/photos.png') no-repeat top left;
+	padding-left: 20px;
+	margin-right: 30px;
+}
+#navigate .picasalink {
+	background: transparent url('../img/picasa.png') no-repeat 8px 0;
+	padding-left: 28px;
+}
