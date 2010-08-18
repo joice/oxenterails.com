@@ -1,0 +1,207 @@
+---
+layout: default
+title: Início
+layout_type: start_page 
+external_javascripts: http://downloads.mailchimp.com/js/jquery.validate.js http://downloads.mailchimp.com/js/jquery.form.js
+---
+.grid_1.prefix_8
+  %a(href="http://www.twitter.com/oxenterails" target="_blank")
+    %img.twitter{ :src => "images/bg/logo-twitter.jpg", :title => "Siga-nos no Twitter!"}
+.grid_9.alpha
+-#
+  .slider
+    .inside
+      .slideshow
+        - 6.times do |image|
+          %img{ :src => "images/slides/#{image}.jpg"}
+  .clear
+  #calls
+    .grid_12
+      .grid_3.alpha
+        %a(href="/agenda")
+          %img{ :src => "images/conteudo/bg-div-agenda.png", :title => "Confira a nossa programação", :height => "46px"}
+          %img.call{ :src => "images/agenda23.jpg", :title => "Confira a nossa programação", :height => "125px"}
+          %p 
+            %strong Fique por dentro
+            %br
+            do que vai rolar
+      .grid_3
+        %a(href="/palestrantes")
+          %img{ :src => "images/conteudo/bg-div-palestrantes.png", :title => "Confira os palestrantes", :height => "46px"}
+          %img.call{ :src => "images/palestrantes.jpg", :title => "Confira os palestrantes", :height => "118px"}
+          %p 
+            %strong Palestrantes com Rails
+            %br
+            na veia!
+      .grid_3.omega
+        %a(href="/inscreva-se")
+          %img{ :src => "images/conteudo/bg-div-inscricoes.png", :title => "Inscreva-se! :)", :height => "46px"}
+          %img.call{ :src => "images/inscricoes.jpg", :title => "Inscreva-se! :)", :height => "118px"}
+          %p 
+            %strong Inscreva-se antes
+            %br
+            e aproveite as promoções!
+    .grid_12
+      .grid_3.alpha
+        %a(href="/local")
+          %img{ :src => "images/conteudo/bg-div-local.png", :title => "Conheça o local", :height => "46px"}
+          %img.call{ :src => "images/fachada-praimar.jpg", :title => "Conheça o local", :height => "117px"}
+          %p 
+            %strong Conheça
+            um pouco
+            %br
+            sobre o local
+            %br
+            onde será realizado
+      .grid_3
+        %a(href="/contato")
+          %img{ :src => "images/conteudo/bg-div-contato.png", :title => "Entre em contato conosco", :height => "46px"}
+          %img.call{ :src => "images/contato.jpg", :title => "Entre em contato conosco", :height => "117px"}
+          %p 
+            %strong Entre em contato
+            %br
+            conosco
+      .grid_3.omega
+        %a(href="/propostas")
+          %img{ :src => "images/conteudo/bg-div-propostas.png", :title => "Mande o seu trabalho pra gente!", :height => "46px"}
+          %img.call{ :src => "images/trabalhos.jpg", :title => "Mande o seu trabalho pra gente!", :height => "117px"}
+          %p
+            Gostaria de palestrar
+            %br
+            no Oxente Rails 2010?
+            %strong Mande o seu trabalho!
+    .grid_12
+      .grid_3.alpha
+        %form#mc-embedded-subscribe-form.validate{:action => "http://tink.us1.list-manage.com/subscribe/post?u=5471d7bbafed7389d40e54b85&id=13d3c337bc", :method => "post", :name => "mc-embedded-subscribe-form", :style => "font: normal 100% Arial;font-size: 12px;", :target => "_blank"}
+          %img{ :src => "images/conteudo/bg-div-newsletter.png", :title => "Receba as notícias por email!", :height => "46px"}
+          %img.call{ :src => "images/newsletter.jpg", :title => "Receba as notícias por email!", :height => "117px"}
+          %p 
+            %strong Receba por e-mail
+            as novidades sobre o
+            %br
+            %strong Oxente Rails
+          #mc_embed_signup
+            .mc-field-group{:style => "margin: 4px 0;clear: both;overflow: hidden; text-align:left;"}
+              %label{:for => "mce-FNAME", :style => "margin-left: -220px; "}
+                Nome
+                %strong.note-required *
+              %input#mce-FNAME.required{:name => "FNAME", :style => "background: #fee5a3; border-color: #FF6600; border-style: none none solid; border-width: 0 0 1px; padding: 3px 3px 3px 45px; width: 175px;float: left;z-index: 999; color: #FF6600;", :type => "text", :value => ""}/
+            .mc-field-group{:style => "margin: 4px 0;clear: both;overflow: hidden; text-align:left;"}
+              %label{:for => "mce-EMAIL", :style => "margin-left: -220px;"}
+                E-mail
+                %strong.note-required *
+              %input#mce-EMAIL.required.email{:name => "EMAIL", :style => "background: #fee5a3; border-color: #FF6600; border-style: none none solid; border-width: 0 0 1px; padding: 3px 3px 3px 45px; width: 175px;float: left;z-index: 999; color: #FF6600;", :type => "text", :value => ""}/
+          #mce-responses{:style => "float: left;top: -1.4em;padding: 0em .5em 0em .5em;overflow: hidden;width: 90%;margin: 0 5%;clear: both;"}
+            #mce-error-response.response{:style => "display: none;margin: 1em 0;padding: 1em .5em .5em 0;font-weight: bold;float: left;top: -1.5em;z-index: 1;width: 80%;background: #FFEEEE;color: #FF0000;"}
+            #mce-success-response.response{:style => "display: none;margin: 1em 0;padding: 1em .5em .5em 0;font-weight: bold;float: left;top: -1.5em;z-index: 1;width: 80%;background: #;color: #529214;"}
+          %div
+            %input#mc-embedded-subscribe.btn{:name => "subscribe", :style => "clear: both;width: auto;display: block;margin: 1em 0 1em 11.5em; background: none repeat scroll 0 0 #FF6600; border: 1px solid #FF6600; color: #FFFFFF; cursor: pointer;", :type => "submit", :value => "Cadastrar"}/
+          %a#mc_embed_close.mc_embed_close{:href => "#", :style => "display: none;"} Close
+          :javascript
+            var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';var err_style = '';
+            try{
+              err_style = mc_custom_error_style;
+            } catch(e){
+              err_style = 'margin: 1em 0 0 0; padding: 0px 3px 3px; background: FFEEEE none repeat scroll 0% 0%; z-index: 1; width: 80%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: FF0000;';
+            }
+            var mce_jQuery = jQuery.noConflict();
+            mce_jQuery(document).ready( function($) {
+              var options = { errorClass: 'mce_inline_error', errorElement: 'div', errorStyle: err_style, onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
+              var mce_validator = mce_jQuery("#mc-embedded-subscribe-form").validate(options);
+              options = { url: 'http://tink.us1.list-manage.com/subscribe/post-json?u=5471d7bbafed7389d40e54b85&id=13d3c337bc&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+                          beforeSubmit: function(){
+                              mce_jQuery('#mce_tmp_error_msg').remove();
+                              mce_jQuery('.datefield','#mc_embed_signup').each(
+                                  function(){
+                                      var txt = 'filled';
+                                      var fields = new Array();
+                                      var i = 0;
+                                      mce_jQuery(':text', this).each(
+                                          function(){
+                                              fields[i] = this;
+                                              i++;
+                                          });
+                                      mce_jQuery(':hidden', this).each(
+                                          function(){
+                                              if ( fields[0].value=='MM' && fields[1].value=='DD' && fields[2].value=='YYYY' ){
+                                                this.value = '';
+                                              } else if ( fields[0].value=='' && fields[1].value=='' && fields[2].value=='' ){
+                                                this.value = '';
+                                              } else {
+                                                this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
+                                              }
+                                          });
+                                  });
+                              return mce_validator.form();
+                          }, 
+                          success: mce_success_cb
+                      };
+              mce_jQuery('#mc-embedded-subscribe-form').ajaxForm(options);
+            });
+            function mce_success_cb(resp){
+                mce_jQuery('#mce-success-response').hide();
+                mce_jQuery('#mce-error-response').hide();
+                if (resp.result=="success"){
+                    mce_jQuery('#mce-'+resp.result+'-response').show();
+                    mce_jQuery('#mce-'+resp.result+'-response').html(resp.msg);
+                    mce_jQuery('#mc-embedded-subscribe-form').each(function(){
+                        this.reset();
+                    });
+                } else {
+                    var index = -1;
+                    var msg;
+                    try {
+                        var parts = resp.msg.split(' - ',2);
+                        if (parts[1]==undefined){
+                            msg = resp.msg;
+                        } else {
+                            i = parseInt(parts[0]);
+                            if (i.toString() == parts[0]){
+                                index = parts[0];
+                                msg = parts[1];
+                            } else {
+                                index = -1;
+                                msg = resp.msg;
+                            }
+                        }
+                    } catch(e){
+                        index = -1;
+                        msg = resp.msg;
+                    }  
+                    try{
+                      if (index== -1){
+                            mce_jQuery('#mce-'+resp.result+'-response').show();
+                            mce_jQuery('#mce-'+resp.result+'-response').html(msg);            
+                      } else {
+                            err_id = 'mce_tmp_error_msg';
+                            html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
+
+                            var input_id = '#mc_embed_signup';
+                            var f = mce_jQuery(input_id);
+                            if (ftypes[index]=='address'){
+                                input_id = '#mce-'+fnames[index]+'-addr1';
+                                f = mce_jQuery(input_id).parent().parent().get(0);
+                            } else if (ftypes[index]=='date'){
+                                input_id = '#mce-'+fnames[index]+'-month';
+                                f = mce_jQuery(input_id).parent().parent().get(0);
+                            } else {
+                                input_id = '#mce-'+fnames[index];
+                                f = mce_jQuery().parent(input_id).get(0);
+                            }
+                            if (f){
+                                mce_jQuery(f).append(html);
+                                mce_jQuery(input_id).focus();
+                            } else {
+                                mce_jQuery('#mce-'+resp.result+'-response').show();
+                                mce_jQuery('#mce-'+resp.result+'-response').html(msg);
+                            }
+                        }
+                    } catch(e){
+                        mce_jQuery('#mce-'+resp.result+'-response').show();
+                        mce_jQuery('#mce-'+resp.result+'-response').html(msg);
+                    }
+                }
+            }
+      .grid_3
+      .grid_3.omega
+
