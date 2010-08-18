@@ -16,7 +16,7 @@ ul{list-style:disc}
 #submenu ul{padding-top:8px;}
 #menu ul li, #submenu ul li{display:inline;font-size:12px;}
 #submenu ul li{padding-right:2.5px;}
-#menu li, #submenu li{float:left;padding-left:10.5px;margin-right:5px;}
+#menu li, #submenu li{float:left;padding-left:18px;margin-right:5px;}
 #menu li a{text-decoration:none;text-transform:uppercase;color:#6b0000;font-weight:bold;display:block;}
 #menu .current a{color:#FFFFFF;background:#6b0000;margin-top:-8px;padding:10px 17px 9px;}
 #menu a:hover, #local a:hover{color:#FFFFFF;}
@@ -40,7 +40,7 @@ img.twitter{margin-left:10px;}
 #content .ul_disc a.mail, #content #guests a{text-decoration:none;}
 #content #guests a:hover{text-decoration:underline;color:#f8810d;}
 #content .left{margin-left:15px;}
-hr.content{border:2px solid #6b0000;margin-top:-2px;}
+hr.content{border:2px solid #6b0000;margin-top:-1px;}
 #content #calls div{text-align:center;}
 #content #calls p{font-size:16px;color:#000;margin-left:19px;text-align:left;}
 #content #calls a{text-decoration:none;color:#000;}
